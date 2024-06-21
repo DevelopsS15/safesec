@@ -1,37 +1,79 @@
+"use client";
+import Image from "next/image";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import React from "react";
+import AbbotsfordMap from "~/components/Locations/AbbotsfordMap";
+
+const campusLinks: {
+  location: string;
+  locationId: string;
+}[] = [
+  {
+    location: "Abbotsford",
+    locationId: "AB",
+  },
+  {
+    location: "Canada Education Park",
+    locationId: "CEP",
+  },
+  {
+    location: "Chilliwack",
+    locationId: "CH",
+  },
+  {
+    location: "Mission",
+    locationId: "MI",
+  },
+  {
+    location: "Hope",
+    locationId: "HO",
+  },
+];
 
 export default function HomePage() {
+  const searchParams = useSearchParams();
+  const selectedLocationId = searchParams.get("location") ?? "AB";
+
+  let mapComponent = <></>;
+  switch (selectedLocationId) {
+    case "CEP":
+      mapComponent = <div>Canada Education Park</div>;
+      break;
+    case "CH":
+      mapComponent = <div>Chilliwack</div>;
+      break;
+    case "AB":
+    default:
+      mapComponent = <AbbotsfordMap />;
+      break;
+  }
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
-        </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
-            </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
-            </div>
-          </Link>
+    <main className="grid max-h-screen min-h-screen grid-cols-[max-content_auto] bg-[#a1c299] align-top text-white">
+      <div className="max-w-80 bg-[#87B27D] p-2">
+        <Image
+          src={"/UFV-logo-white.png"}
+          width={512}
+          height={128}
+          alt="UFV Logo"
+          className="max-w-64"
+        />
+        <div className="text-right text-2xl font-bold">Safety & Security</div>
+        <div className="my-2 h-[2px] w-full bg-[#a1c299]"></div>
+        <div className="grid grid-cols-1 gap-1">
+          {campusLinks.map((campusLink) => (
+            <Link
+              key={campusLink.locationId}
+              href={`/?location=${campusLink.locationId}`}
+              className="rounded-md bg-green-200 bg-opacity-10 px-3 py-2 hover:bg-green-200 hover:bg-opacity-25"
+            >
+              {campusLink.location}
+            </Link>
+          ))}
         </div>
       </div>
+      {mapComponent}
     </main>
   );
 }
