@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import React from "react";
+import { TSRestClient } from "~/components/Global/TSRestClient";
 import AbbotsfordMap from "~/components/Locations/AbbotsfordMap";
+import { rootContract } from "~/ts-rest/contracts/contracts";
 
 const campusLinks: {
   location: string;

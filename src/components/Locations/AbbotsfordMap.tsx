@@ -6,7 +6,7 @@ export default function AbbotsfordMap() {
   const [targetBuilding, setTargetBuilding] = React.useState<string | null>(
     null,
   );
-  
+
   return (
     <svg
       version="1.1"
@@ -25,6 +25,7 @@ export default function AbbotsfordMap() {
         y="0"
       />
       <BuildingDisplay
+        campus="A"
         building="T"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -33,6 +34,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="F"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -41,6 +43,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="H"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -49,6 +52,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="FH"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -57,6 +61,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="K"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -65,6 +70,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="C"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -73,6 +79,7 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="FH"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
@@ -81,36 +88,42 @@ export default function AbbotsfordMap() {
         }
       />
       <BuildingDisplay
+        campus="A"
         building="D"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
         svgPath="m 422.99333,690.22958 -2.58512,3.79151 7.23834,16.37244 4.30853,-0.17234 0.68937,29.64273 6.89366,4.65321 28.78102,-1.20639 v -14.13199 l -3.96386,-4.48088 3.27449,-2.75746 2.92981,3.79151 14.47668,-1.37873 -0.51703,-30.50444 -5.34258,-4.13619 -26.02356,1.55107 -2.41278,-3.61917 18.44053,-19.47458 -0.17234,-6.54898 -13.95965,-13.27029 9.9958,-8.44473 13.09795,-0.51702 3.79151,-4.82556 -0.51702,-13.78732 8.44473,-8.61707 -9.47878,-8.44473 0.34468,-13.44263 -5.51492,-4.82556 -12.23625,1.72341 -9.65112,-7.9277 -8.27239,8.78941 -12.9256,-0.17234 1.20639,1.89575 -3.44683,4.1362 -2.58512,-0.17234 1.55107,12.0639 -8.44473,8.27239 7.9277,8.27238 -3.79151,0.68937 -5.68727,15.85541 2.75747,3.79151 -21.02566,22.40439 0.34469,4.82556 z"
       />
       <BuildingDisplay
+        campus="A"
         building="B"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
         svgPath="m 364.91072,515.90218 -37.74278,39.81088 59.97482,56.52799 8.96176,-9.30644 4.30853,3.44683 43.94707,-47.04921 -10.51283,-9.99581 34.98531,-36.88106 2.92981,2.24043 3.44683,-2.9298 5.85961,-0.17234 -0.68937,-6.20429 3.79151,-3.27449 -50.84072,-46.53219 -54.97692,57.56204 3.27449,3.10215 -8.44473,6.37663 z"
       />
       <BuildingDisplay
+        campus="A"
         building="A"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
         svgPath="m 487.3784,431.72424 0.51702,8.96175 7.41068,-0.34468 1.37873,33.95126 51.35775,-1.72341 v 5.17024 h 5.34259 l 0.68936,6.72132 105.47296,-3.44683 0.51703,11.02985 68.59189,-1.72341 -0.17234,-5.68727 h 12.40858 l 3.27449,3.10215 10.68517,-10.85751 -1.55107,-2.24044 3.96385,-3.61917 5.68727,4.9979 39.29384,-41.53429 -16.54477,-15.51073 0.8617,-5.51492 -5.68726,1.03404 -11.71922,-10.85751 -39.46619,41.53429 -70.48765,1.72342 0.34468,6.37663 -13.09795,-0.34468 -0.34468,-10.68517 -4.48088,-0.34469 v -6.03195 l -80.13876,2.0681 -0.51703,-11.02985 -5.34258,0.17234 v -5.68727 l -53.42585,1.89576 -0.17234,12.75326 h -6.20429 v -4.30853 z"
       />
       <BuildingDisplay
+        campus="A"
         building="G"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
         svgPath="m 651.93201,574.96449 18.27957,0.97491 2.19355,16.57348 4.87456,14.1362 4.63082,-1.21864 8.04301,14.62366 8.04301,9.50537 12.43011,9.74911 15.59856,8.04301 -1.46236,3.41218 17.06093,4.3871 14.86738,1.21864 0.24373,-9.99283 16.81721,-0.48746 -0.48746,-5.84946 h 2.43728 l -0.73119,-36.31541 h 6.82438 v -3.65592 l 2.43727,-0.48745 v -6.82437 h -6.33691 l -0.48746,-14.37993 -2.92473,-0.48746 v -5.11828 h -9.26165 l -0.97491,-5.60573 -3.65591,-3.41219 -7.31183,-2.92473 v -4.63082 l -6.33692,-0.48746 -2.92473,-0.48745 v -16.81721 l -9.99283,0.48746 -0.24373,1.46236 h -7.31183 l -0.48745,-8.28674 -44.84588,1.21864 v 15.11111 l -21.93548,1.46237 -0.48746,16.8172 -6.33692,0.73119 z"
       />
       <BuildingDisplay
+        campus="A"
         building="E"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
         svgPath="m 553.60179,861.59483 -15.35484,0.48745 0.24373,38.50896 14.86738,0.24373 0.73119,17.79209 67.02509,-1.2186 v -5.362 l 6.09319,3.8996 23.64157,-40.94621 -7.0681,-4.3871 9.01792,-16.57348 -8.77419,-4.63082 -0.24373,-42.40861 -1.94982,-0.24372 v -6.09319 l -9.7491,-0.48746 v -10.48028 l 4.14337,0.48745 -0.24373,-8.28674 -3.16846,-0.24373 6.09319,-17.30465 -4.87455,-3.65592 -25.5914,4.87455 3.41219,8.53047 -28.02868,4.14337 v -2.43728 l -29.73476,-3.16846 -3.16846,4.87456 4.63082,10.23655 2.19355,0.97492 0.24373,55.56989 h -4.14337 z"
       />
       <BuildingDisplay
+        campus="A"
         building="S"
         selectedBuilding={targetBuilding}
         setSelectedBuilding={setTargetBuilding}
