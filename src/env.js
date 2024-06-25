@@ -11,6 +11,8 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
+    ORACLE_DB_USER: z.string().min(3),
+    ORACLE_DB_PASSWORD: z.string().min(12),
   },
 
   /**
@@ -29,6 +31,8 @@ export const env = createEnv({
   runtimeEnv: {
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
+    ORACLE_DB_USER: process.env.ORACLE_DB_USER,
+    ORACLE_DB_PASSWORD: process.env.ORACLE_DB_PASSWORD,
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**
