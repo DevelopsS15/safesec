@@ -11,8 +11,8 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
-    ORACLE_DB_USER: z.string().min(3),
-    ORACLE_DB_PASSWORD: z.string().min(12),
+    ORACLE_DB_USER: z.string().min(2),
+    ORACLE_DB_PASSWORD: z.string().min(2),
   },
 
   /**
