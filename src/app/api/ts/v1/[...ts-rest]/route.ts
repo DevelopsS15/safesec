@@ -23,12 +23,13 @@ const handler = createNextHandler(
           CC: "CC",
           CEP: "CEP",
           H: "HO",
+          M: "MI",
         };
 
         // https://www.ufv.ca/operations/floor-plans/#d.en.995793
         // Building Codes as per start of SSRMEET_BLDG_CODE
 
-        const targetDate = new Date(2023, 9, 10, 9, 22, 0, 0);
+        const targetDate = new Date(2024, 9, 7, 10, 22, 0, 0);
         console.log(
           `${targetDate.toDateString()} ${targetDate.toLocaleTimeString()}`,
         );
@@ -50,7 +51,6 @@ const handler = createNextHandler(
           ],
           { outFormat: oracledb.OUT_FORMAT_OBJECT },
         );
-        //   Filter by campus:             AND SSRMEET_BLDG_CODE LIKE 'CEP%'
 
         if (!Array.isArray(SSRMEET.rows)) {
           return {
@@ -209,6 +209,9 @@ const handler = createNextHandler(
             SSBSECT_ENRL: number;
           }[];
           for (const course of sectRows) {
+            // if (course["SSBSECT_ENRL"] <= 0) {
+            //   continue;
+            // }
             const courseCampusCode = course["SSBSECT_CAMP_CODE"];
             const meetTermAndCRN =
               course["SSBSECT_TERM_CODE"] + "_" + course["SSBSECT_CRN"];

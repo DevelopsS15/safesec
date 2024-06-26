@@ -4,6 +4,17 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { TSRestClient } from "./Global/TSRestClient";
 import { CampusCodesType } from "~/lib/zod/schemas";
 import { LucideLoader2 } from "lucide-react";
+import { Skeleton } from "./ui/skeleton";
+import { cn } from "~/lib/utils";
+
+interface BuildingDisplayProps
+  extends PropsWithChildren<React.SVGProps<SVGPathElement>> {
+  campus: CampusCodesType;
+  building: string;
+  selectedBuilding: string | null;
+  setSelectedBuilding: (name: string | null) => void;
+  svgPath: string;
+}
 
 export default function BuildingDisplay({
   campus,
@@ -11,13 +22,8 @@ export default function BuildingDisplay({
   selectedBuilding,
   setSelectedBuilding,
   svgPath,
-}: PropsWithChildren<{
-  campus: CampusCodesType;
-  building: string;
-  selectedBuilding: string | null;
-  setSelectedBuilding: (name: string | null) => void;
-  svgPath: string;
-}>) {
+  ...props
+}: BuildingDisplayProps) {
   const [occupantsData, setOccupantsData] = React.useState<Record<
     CampusCodesType,
     Record<string, number>
@@ -59,9 +65,12 @@ export default function BuildingDisplay({
     >
       <PopoverTrigger asChild>
         <path
-          fillOpacity={selectedBuilding === building ? 0.25 : 0}
-          className="transition-all duration-100"
-          fill="green"
+          {...props}
+          // fillOpacity={selectedBuilding === building ? 0.75 : 1}
+          className={cn(
+            "fill-black transition-all duration-100",
+            selectedBuilding === building ? "opacity-20" : "opacity-0 hover:opacity-10",
+          )}
           d={svgPath}
         />
       </PopoverTrigger>
@@ -69,16 +78,18 @@ export default function BuildingDisplay({
         <PopoverArrow />
         <div>
           <h1 className="text-xl font-bold">Building {building}</h1>
-          <div className="grid grid-cols-2 bg-slate-100/75 px-2 font-bold">
-            <div>Floor</div>
-            <div>Students</div>
-          </div>
           {occupantsDataState === "fetching" ? (
-            <div>
-              <LucideLoader2 className="animate-spin" />
+            <div className="grid grid-cols-1 gap-1">
+              <Skeleton className="h-3 w-full" />
+              <Skeleton className="h-3 w-full" />
+              <Skeleton className="h-3 w-full" />
             </div>
           ) : occupantsData ? (
             <>
+              <div className="grid grid-cols-2 bg-slate-100/75 px-2 font-bold">
+                <div>Floor</div>
+                <div>Students</div>
+              </div>
               {Object.entries(occupantsData[building]).map((value) => (
                 <div
                   key={value[0]}

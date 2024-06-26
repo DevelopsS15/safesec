@@ -5,6 +5,10 @@ import { useSearchParams } from "next/navigation";
 import React from "react";
 import { TSRestClient } from "~/components/Global/TSRestClient";
 import AbbotsfordMap from "~/components/Locations/AbbotsfordMap";
+import CCLMap from "~/components/Locations/CCLMap";
+import CEPMap from "~/components/Locations/CEPMap";
+import HopeMap from "~/components/Locations/HopeMap";
+import MissionMap from "~/components/Locations/MissionMap";
 import { rootContract } from "~/ts-rest/contracts/contracts";
 
 const campusLinks: {
@@ -16,12 +20,12 @@ const campusLinks: {
     locationId: "AB",
   },
   {
-    location: "Canada Education Park",
-    locationId: "CEP",
+    location: "Clearbrook Centre",
+    locationId: "CC",
   },
   {
-    location: "Chilliwack",
-    locationId: "CH",
+    location: "Canada Education Park",
+    locationId: "CEP",
   },
   {
     location: "Mission",
@@ -40,19 +44,34 @@ export default function HomePage() {
   let mapComponent = <></>;
   switch (selectedLocationId) {
     case "CEP":
-      mapComponent = <div>Canada Education Park</div>;
+      mapComponent = <CEPMap />;
       break;
     case "CH":
       mapComponent = <div>Chilliwack</div>;
       break;
+    case "CC":
+      mapComponent = <CCLMap />;
+      break;
     case "AB":
-    default:
       mapComponent = <AbbotsfordMap />;
+      break;
+    case "MI":
+      mapComponent = <MissionMap />;
+      break;
+    case "HO":
+      mapComponent = <HopeMap />;
+      break;
+    default:
+      mapComponent = (
+        <div className="p-8 text-xl">
+          Sorry! This location either isn't supported yet or it doesn't exist.
+        </div>
+      );
       break;
   }
 
   return (
-    <main className="grid max-h-screen min-h-screen grid-cols-[max-content_auto] bg-[#a1c299] align-top text-white">
+    <main className="grid max-h-screen min-h-screen grid-cols-[max-content_auto] bg-[#95c48b] align-top text-white">
       <div className="max-w-80 bg-[#87B27D] p-2">
         <Image
           src={"/UFV-logo-white.png"}
