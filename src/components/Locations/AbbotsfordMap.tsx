@@ -1201,7 +1201,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#I)"
         fill="#999dad"
         stroke="#d5d3b3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M0 0s2.5 6.5-.75 14.75c0 0-9 21.25-4.5 30.125l2.5-.25s-3.875-5 .75-20.5c0 0 7.625-15.75 4.25-23.75z"
@@ -1293,7 +1293,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#X)"
         fill="#3e4147"
         stroke="#939192"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0 3.375-3 8.375.125.25-4.25-12.5-.25-3 3.125z"
@@ -1308,7 +1308,7 @@ export default function AbbotsfordMap() {
         fill="#74c32c"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M0 0v12s1.25 2.5 2.25 2.75v-8H1L.5-1Zm66-139.375c-1.875-.625-6.25 0-6.25 0-10.25 2.5-9.875 11.812-9.875 11.812l1.625.125-.125 2.25-1.5-.125 2.25 25.25h7.5v59.25h-8.5c0 2.75-3.125 2.5-3.125 2.5H15.375c-4.75 0-4.042-3.187-4.042-3.187h-8v-42.333h10v-5.334c0-1.333.334-1.333-1-1.333s-4 1-4 1C-1.667-85.5 0-73.833 0-73.833L-.333-12.5h-.003c.513 1.818 2.086 2 2.086 2H5.5V-17h7v-1.25L55-18v5.5c-.25 2.75 1.25 3 1.25 3H63l-.25 30.75c-.25 4-1.25 3.25-1.25 3.25L2 23.75c-2.25 0-2.25 2-2.25 2C-.25 27 1 30 1 30c2 2.25 7.75 6.5 7.75 6.5l2.917.833 56 2.667.333-.031V-138.16c-.903-.914-2-1.215-2-1.215m-25.75 39.75-7.033 2.921L24-92.875c-2.75 1-2.25 4.25-2.25 4.25h8v42.25h-8.5c-1 .25 2 1.75 2 1.75h16.5c1.5 0 2.5-1.75 2.5-1.75h-9.5l.25-49.75 10-.25c.75-3.25-2.75-3.25-2.75-3.25M-21 36c2.25.5 2.25-1.75 2.25-1.75l.5-9 3-10.5L-15 2.5c0-3.5-2.25-2-2.25-2C-29.75 7.25-29.5 16-29.5 16c-3 12.5 8.5 20 8.5 20m53.5-199.167C29.167-176.501 18.166-193.5 18.166-193.5l-28-49.333c-5-7-12.333-2.667-12.333-2.667-6.333 2.666-4 12-4 12l7.333-4 18.667 33.667-6.667 3.667 16.001 28.333-49 27.666-4-6.666c-7.666 4-13-2.667-13-2.667l-12.334-21.667-13.333-3.666-28.667-50.334 6.667-4-35-60-3.667-3-7.5-2.166-.333 8-75-2L-339.667-295v-6.98c-2.99.621-8.379 2.118-9.333 4.979 0 0-5.333 1.333-2 13.333 0 0 4 10 .667 17.333 0 0 1.333 6 8 10L-353-247.669l-.667 16-.666 1.334-.667 2s-12 10-2.667 26c0 0-2.666 8 26.667 10l1.333 34-28 27.333-3.666-3.831s-.334-1.333-2.334 0l-28.333 27-1.667-2 2.667-2.334-3.667-4.333 5.334-17-11-12-11 10-1-1 .666-2-3.333-4.667-2.667 1-18-20-4.832 3.833-2.032-2.135-5.302 5.302 2 2-1.666 2-4.667-3.667s0-1.333-2 .667l-16.333 15.333s-1.333 1.001 0 2.667l2.333 2.333L-477-125l-2.833 2.666L-477.166-96s.334 3 3.667 6.666l44.666 47S-424.5-40-420.166-40c0 0 9.667-.668 14.333.332 0 0 4.668 1.001 6 2.001 0 0 6.666 3.667 15.333-3l35-33s1.667-1.333-1.333-4l-4-4 21-20s3-1.333.333-4l-6-6.333 9.334-8.667L-325.5-117l.667-8 4.667-.334V-129l8.333-.334 1.667-2 8.333 8.334-7.333 6.333 5.666 6-13 13S-318.667-86-313.333-69L-321-62l-11-11s-.333-.335-1.333.332L-375-34.334s-10.999 12-4.666 21.334C-373.333-3.667-358 29.999-358 29.999l9.167 19.834c6 8 11.333 2.667 11.333 2.667l-4.667-6 20-18.667 10.334 9.667 1-.667 11 11.667-3.667 3.333-2.667-4.333-30 18c-1 1.333-3 4-.666 8 2.333 4 6.666 2 6.666 2 24-7.667 26.667-6.667 26.667-6.667 6.333-.334 8.333 3.334 8.333 3.334 2 2.666 4 2.333 4 2.333 1.667-.333 4.667.167 4.667.167 8 4 7.333 11 7.333 11 0 2 1.334 1.333 1.334 1.333l9.333-.333-.333 24.333-8.667.667a37.12 37.12 0 0 1-.451 2.453l.117.047 13 1.333v-4.333h5.334l-.667-8L-138.5 90.5l1 8 3.666-1.333 1-5 13.667-.334.333-7.333 48.001 1.333c-1 24.333 17.666 26.667 17.666 26.667l17.334-.333c9.667.333 13.666-4.667 13.666-4.667l15-16c2.333-3.667 1.667-7.333 1.667-7.333V75.5c.152-2.446-1.028-4.745-2.35-6.525l-28.484-29.808c-3.667-4-5.333-9.334-5.333-9.334L-41.25 13c2.5-13.75 7.5-17.75 7.5-17.75 8.75-6.5 18-4.25 18-4.25 4.75.25 4-4.75 4-4.75l.583-57.583h1.333l.334-14c-.666-6-8.667-5.667-8.667-5.667v12.333h-14.5l.167-4.5-12.833-.5-.167-16.666L1.5-99c35-1.333 35-24 35-24 2-21.334-4-40.167-4-40.167M-26.667-273l-31-53.333.485-.318c-2.686-4.939-16.174-27.243-42.818-31.683l-84.666-3.333h-13.667s-10 3.666-6 12.666l-.036-.001c2.198 4.33 7.369 4.669 7.369 4.669l.333-8L-112-350c31.667 3 43 25 43 25 3.667 5.666 33.333 57.667 33.333 57.667l-7 4.667c6 9.667 13.334 5.333 13.334 5.333C-19.666-263-26.667-273-26.667-273m-204.666-85.334-61.667-1-3.333-4.334S-341-367.334-353-360.334c0 0-26 10.001-36.667 24.667l-35.666 37s-17 21.333-16 54c0 0 2 25.999-14.334 47.333 0 0-19.999 25.668-45.666 26.334 0 0-8.667 1.665-10.667 12.999l6.667 220 .434 30.833h17.066l-3.666-63.333-1.899-30.209 8.732-.624L-482-3l1-2.667L-482.333-25l-12.57.331-8.263-131.498s27.741-1.858 46.173-19.493l-.007-.008 4.667-5.333s2-2.666 0-7.333c0 0 18.666-16 18.666-42 0 0-1.333-56.001 42.667-87.334 0 0 1.333 8 16 8 0 0 5.999 0 10.667 4 0 0 7.332 3.333 16-4h1.666v-36.665h5.666l1-1.334v-7.666L-229-352.666l.666 7.666c8.1-1.668 8.367-6.398 7.861-8.963-.69-2.639-3.214-5.26-10.86-4.371M-423.666-17.667-413.333-25l6 12L-415-8.334-403.666 13-392 7l12 23.333-8 4.333c-1.333 4.333 1.667 4.333 1.667 4.333 2 .667 7.333-.333 7.333-.333 5.667-2 7-7 7-7l-.333-6L-385-1l-2.333-1.334-11-22c-6-7.334-17.667-5-17.667-5l-6.333 2.667c-7.333 4-1.333 9-1.333 9m-7.667 113.666 11.667.667.333-8.667H-423l.334-9-8.667-.666zM-400 71.333l.667-17-15.333-1-.334 17.333zm-87.833 30.833-16.926.639.309 21.922 2.284.439 15.667-.667zM-472-72.625l-3-3.25c-2.125-1.25-2.375 1.25-2.375 1.25l-.375 12.75c-.125 2.75 2.125 2.5 2.125 2.5l12 .375c2 0 2.125-.375 2.125-.375.875-.875 0-1.875 0-1.875l-3-3.125-4.75 4.5-7.5-8zM-432 2l-9-1v-8h-10.666l-.667 16.666 7.667.334.333 8.666h11.667zm-54.333 108.999-.333 6 81.666-1 .334-9-1-.333-.334 6.667zM-512 376.5s2 11 23 10l104 5s16 4 17-17v-117s3-31 6-39l21.575-69.629-.075-.038c10.667-32.333-7.667-73.333-7.667-73.333l-8.128-16.538-.038.037-.5.167-5.667-10s-20.333-3-25.333 5l-2.667 53.333-4 5 .333 68-103.666.667 1.334-42.667h5.666s1 .668 1-2c0 0 .334-1.667-1-1.667l-5-.333-6.333.333-2 2-.113.02.612 43.48s.334 4 7.334 4l101.666-1.333.334 40.667-23-9-.334 6.333-4.333-.333v-2l-14.333-5-20 .333-.334-4.667-8.333-.666-27.333-9.667-1 1.333 27.666 10-3.333 8.667-27.667-9.667s-15-3.333-16.666 13.334zM-353.75 265s3.702 4.095 7.748 3.369L-347 212.5l20-61s4 .666 5 1.333l1-4s.667-1.333 3-.333l3.333.667s1.666.666 2.334-4.334c-9.822-2.934-15.441 3.792-17.54 7.113l.123.054-24.5 76s-4 18.5.5 37m47.583-139.167s7-1.667 6.667-9.667c0 0 2-16.999-2.667-32.333 0 0-4.666-2.334-7.666-2.334l-15.667 6.167s-6.333 5.666-4 12c0 0 4 17 3.333 22 0 0-.333 8.001-1 9.667 0 0-.666 3.999 3.334 1.333 0 0 4.666-2.999 8.333-4.833 0 0 7.333-2 9.333-2M68 382V55.8c-2.453-1.377-4.5-1.467-4.5-1.467l-56-.833c-4.666-.333-3.334 2-3.334 2-.334 3 .5 5.333.5 5.333l.2 1.068.301-.068V63.5h2.5v-7h49v8.333h5l.666 61h-8L54 131.5l-98.667-3.667v-4c-.334-1.667-1.666-1.333-1.666-1.333-24.666-2.333-34.667-19-34.667-19-1.333-1-2.334.667-2.334.667v6.333l-35-1 .334-6.333c-.333-2-1.667-1.667-1.667-1.667-1.333-.333-1.667 1.333-1.667 1.333l.667 10-71.999 7.334-.667-7L-227 116.5l5.334 9-1.667.333-4.333-7.666c-2.333.666-40.667 5-40.667 5l-12-1.334.075-.754c-2.145 4.567-4.575 6.588-4.575 6.588-3.333 4.332-21.334 11.666-21.334 11.666-2.333.667-.666 2-.666 2l2 .667-.474.299c1.383.957 3.137 2.568 4.142 5.034l7.415-.083.5 120.5s1.417.917 8 0l.25-21.583 7.168-79.834 6.082.417s-3.75-26.417 11.5-27.5l-1-7.5 46-7 1.25 9.083s.167 2.834 7.25-2.583l-4 184.5-18 11.5-6 2h-6l1 67.5h-2l-1-60h-35v-7.5l-6.25-.417-.75-49.083h-7.5v49.5h-10v7.5h-35.5v-8.5h-8l-.25-48.417v-.154c-1.162.25-3.108.853-5.75 2.321 0 0-3 3 0 17.5l4 38.5.5 45.5s1.5 9.5 10.5 11.5l153.5 6.5V416l-8.75-.5-450.495-19.02-.19-18.773L-533 384.5s11 3 10-33l-1.783-104.305L-525 245s-1.666-40 4.667-56.333c0 0 2.666-40.334 2.333-52.667l-8-290.667s-.333-15.667-14.333-15l-4.334 7h-62.666l.666-28 38.667-.667 2.667 2.667L-564-190l39 .666 3.333 2-2.333 5s50.333 8.666 69.333-40c0 0 3-11.667 2.667-23 0 0-1.333-30.667 10.667-48 0 0 21.666-32.001 41.666-47.667 0 0 18.667-19.666 33.667-25.666 0 0 18.334-10.334 51.667-8.334l175 3.667L-98-369.667s5.891 1.139 13.885 4.592c2.208-3.357 13.12-20.79 8.615-30.925 0 0-2.25-5.75-9.5-7.75l-3.25.5s-26.75 1-38.5-4.75l2-7.75 22-6.25 11-1.25 1.25 1.5 2-.5 6.75-3s9.25-1.5 9.25-2.5 2.5-8 4.25-14l5.5-1.75 9.25-2 2.5 11.75 7.5 11.75s-15.25 2.5-28.75 11c0 0-1.5 5.25 0 9.25 0 0 9.997 14.31-7.46 38.729 8.451 4.225 18.272 10.887 25.937 21.099l5.023-3.828-4.25-5.5 17.75-15.5 4.75 6.5 3-2 7 7.75-2.75 2.5 4.5 6-21.75 17.25-3.5-6-4 2.084 80 141.333c4 6.334 10 22.666 10 22.666 1.333 5.666 5 10.334 5 10.334 10.474 7.854 17.714 3.473 21 .324V-435h25v817z"
@@ -1417,7 +1417,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#aq)"
         fill="#939192"
         stroke="#939192"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0 3.375-3 8.375.125.25-4.25-12.5-.25-3 3.125z"
@@ -1432,7 +1432,7 @@ export default function AbbotsfordMap() {
         fill="#74c32c"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M753 290h-28l.226 875.278h28z"
@@ -1451,7 +1451,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building G
       />
       <BuildingDisplay
@@ -1468,7 +1468,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building F
       />
 
@@ -1478,7 +1478,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building T
       />
 
@@ -1488,7 +1488,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building E
       />
 
@@ -1498,7 +1498,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building S
       />
 
@@ -1508,7 +1508,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building D
       />
 
@@ -1518,7 +1518,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building C
       />
 
@@ -1528,7 +1528,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building B
       />
 
@@ -1538,7 +1538,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building A
       />
 
@@ -1548,7 +1548,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building H
       />
 
@@ -1558,7 +1558,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building FH
       />
       <path
@@ -1678,7 +1678,7 @@ export default function AbbotsfordMap() {
         fill="#74c32c"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M0 0h15.411v.934H29.24v-1.51h1.929v-32.83l-1.151-1.844h-2.734l.287 1.844h-1.478l-.108-1.844 1.443-1.3H31.169l2.799 2.59V.934h9.288v-5.236h6.218v-18.146l-3.906-4.317h-4.182l.287-2.084 1.295-.922 2.6.922 5.642 6.545v-15.829h-3.47l-2.172 2.232s-1.161.649-1.448 0c-.288-.649-.469-.468-.469-.468l.181-4.414h3.309v-32.029l-5.755.728v-6.628h.982l7.812 4.893v-17.523L39.113-98.34H-9.21v58.337z"
@@ -1698,7 +1698,7 @@ export default function AbbotsfordMap() {
         fill="#71c32d"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         // Building K
       />
       <path
@@ -1721,7 +1721,7 @@ export default function AbbotsfordMap() {
         fill="#74c32c"
         stroke="#231f20"
         stroke-width="2"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       /> */}
 
       <g clip-path="url(#aJ)" transform="translate(-21.359 -78.153)">
@@ -1970,7 +1970,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bp)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M272 916.792h-5.25v5.25H272Z"
@@ -1978,7 +1978,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bq)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M272 909.333h-5.25v5.25H272Z"
@@ -1986,7 +1986,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#br)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M272 901.875h-5.25v5.25H272Z"
@@ -1994,7 +1994,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bs)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M312.667 1008.917h-5.25v5.25h5.25z"
@@ -2002,7 +2002,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bt)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M312.667 1001.458h-5.25v5.25h5.25z"
@@ -2010,7 +2010,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bu)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M312.667 994h-5.25v5.25h5.25z"
@@ -2018,7 +2018,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bv)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M312.667 986.542h-5.25v5.25h5.25z"
@@ -2026,7 +2026,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bw)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M342.375 763.625h-5.25v5.25h5.25z"
@@ -2034,7 +2034,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bx)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M377.291 706.333h-5.25v5.25h5.25z"
@@ -2042,7 +2042,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#by)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M432.875 822.904h-5.25v5.25h5.25z"
@@ -2050,7 +2050,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bz)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M412.187 510.36h-5.25v5.25h5.25z"
@@ -2058,7 +2058,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bA)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0-4.551 2.617 2.617 4.551 4.551-2.617Z"
@@ -2066,7 +2066,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bB)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0-4.551 2.617 2.617 4.551 4.551-2.617Z"
@@ -2074,7 +2074,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bC)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M250.125 679.875h-5.25v5.25h5.25z"
@@ -2082,7 +2082,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bD)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M380.625 791.875h-5.25v5.25h5.25z"
@@ -2090,7 +2090,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bE)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M529.375 807.375h-5.25v5.25h5.25z"
@@ -2098,7 +2098,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bF)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0-3.618 3.804L.186 7.423l3.619-3.804Z"
@@ -2106,7 +2106,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bG)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M606.125 723.625h-5.25v5.25h5.25z"
@@ -2114,7 +2114,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bH)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0-4.307 3.002 3.002 4.307 4.307-3.002Z"
@@ -2122,7 +2122,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#bI)"
         fill="#9ddff8"
         stroke="#231f20"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <g clip-path="url(#bJ)" transform="translate(-21.359 -78.153)">
         <path
@@ -2380,7 +2380,7 @@ export default function AbbotsfordMap() {
         clip-path="url(#cz)"
         fill="#216e38"
         stroke="#acdd69"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M0 0v-.657a.55.55 0 1 1 1.101 0c0 .169-.009.657-.009.657h.728v3.899s-.201 1.976-.283 2.76c-.092.875-.294 1.131-.908 1.42-.883.416-1.871.589-2.912.589-1.04 0-2.028-.173-2.91-.589-.615-.289-.817-.545-.909-1.42-.083-.784-.282-2.76-.282-2.76V0h.728s-.009-.488-.009-.657a.55.55 0 1 1 1.1 0V0Zm-5.662 1.838a.548.548 0 1 0 1.096 0 .548.548 0 0 0-1.096 0m5.664 0a.549.549 0 1 0 1.099-.001.549.549 0 0 0-1.099.001m-3.977 5.59a.25.25 0 0 0 0 .5h3.407a.25.25 0 0 0 0-.5zM-5.279 3.87a.368.368 0 0 0-.374.402c.063.876.115 1.372.222 2.252.023.188.185.322.429.322H.447c.243 0 .405-.15.429-.337.117-.927.159-1.334.225-2.232.018-.254-.155-.407-.352-.407Z"
@@ -2595,7 +2595,7 @@ export default function AbbotsfordMap() {
         fill="url(#dq)"
         stroke="#211d1d"
         stroke-width=".5"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m0 0-2.333-.667 7 248.667h2.666Z"
@@ -2604,7 +2604,7 @@ export default function AbbotsfordMap() {
         fill="url(#ds)"
         stroke="#211d1d"
         stroke-width=".5"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M0 0h3.226l.484 491H-.351z"
@@ -2613,7 +2613,7 @@ export default function AbbotsfordMap() {
         fill="url(#du)"
         stroke="#211d1d"
         stroke-width=".5"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m18.672-3.414 100.9 1.025-2.56 5.829-98.34-.79Z"
@@ -2622,7 +2622,7 @@ export default function AbbotsfordMap() {
         fill="url(#dw)"
         stroke="#211d1d"
         stroke-width=".5"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M-25.82-1.387 88.548.306l-.205 4.652-114.163-.627Z"
@@ -2631,7 +2631,7 @@ export default function AbbotsfordMap() {
         fill="url(#dy)"
         stroke="#211d1d"
         stroke-width=".5"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <g fill="#fff">
         <path

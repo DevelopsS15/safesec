@@ -13,7 +13,7 @@ export default function CCLMap() {
       height="1056"
       viewBox="0 0 1632 1056"
       xmlns="http://www.w3.org/2000/svg"
-      className="h-auto max-h-full w-auto max-w-full self-start justify-self-start"
+      className="h-auto max-h-full pb-32 w-auto max-w-full self-start justify-self-start"
     >
       <text xmlSpace="preserve" x="1357.816" y="999.452" font-size="16">
         <tspan
@@ -46,7 +46,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 360.911v-95.914"
@@ -54,13 +54,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1169.906 957.79v11.29h11.29v-11.29zm0 11.29Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M923.583 496.126v-4.414"
@@ -68,7 +68,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.97 328.657v9.422a4.745 4.745 0 0 0 4.753-4.754c0-2.546-2.122-4.668-4.753-4.668m0 160.593v4.669h4.753c0-2.547-2.122-4.669-4.753-4.669m155.925 4.669h4.669v4.753a4.745 4.745 0 0 0 4.753-4.753c0-2.547-2.122-4.669-4.753-4.669-2.547 0-4.669 2.122-4.669 4.669m4.669 155.925v9.422m4.668-5.687c-.424-2.207-2.376-3.735-4.668-3.735m55.002 160v9.421M279.002 489.25v9.422m0-9.422c-2.547 0-4.669 2.122-4.669 4.669 0 2.631 2.122 4.753 4.669 4.753m0-170.015v9.422m0-9.422c-2.547 0-4.669 2.122-4.669 4.668 0 2.632 2.122 4.754 4.669 4.754m165.347-165.347h-4.754v4.753"
@@ -76,7 +76,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M444.349 172.732c0-2.547-2.122-4.669-4.754-4.669-2.546 0-4.668 2.122-4.668 4.669 0 2.63 2.122 4.753 4.668 4.753m477.113-4.753h4.668v4.753a4.745 4.745 0 0 0 4.754-4.753c0-2.547-2.122-4.669-4.754-4.669-2.546 0-4.668 2.122-4.668 4.669"
@@ -84,7 +84,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M395.033 189.029H298.78m96.253 3.395H302.26m130.545-3.395h8.488m-8.488 3.395h6.79m3.481 0h1.697m-3.48-3.395v-14.6m3.48 17.995v-14.515m474.906-3.479v14.599m-524.646 0v3.395m37.772-3.395v3.395m23.767-14.514v-3.48m26.482 3.48v-3.48m11.799 3.48v-3.48m26.397 3.48v-3.48m11.884 3.48v-3.48m26.397 3.48v-3.48m-102.959 0h-15.279m15.279 3.48h-11.799m50.08-3.48h-11.799m11.799 3.48h-11.799m76.477-3.48h38.366m-38.366 3.48h38.366m-64.763-3.48H521.25m11.884 3.48H521.25m280.275-3.48H763.16m76.562 0h-11.799m76.562 0h15.194m-41.676 0h-11.799"
@@ -92,7 +92,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M287.405 360.911v72.234"
@@ -100,7 +100,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M298.779 264.997v-75.968m3.48 75.968v-72.573m760.019 72.573v-75.968m-3.48 75.968v-72.573m106.355 308.116h-64.255m79.364 0h47.193m8.573 16.042v47.278m0 25.464v58.568"
@@ -108,7 +108,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1099.031 492.985h67.99m-1.868 3.395h-64.255m66.122-3.395v1.868m-67.989 0v-1.868m130.376 0h-51.013m49.061 3.395h-47.193m49.145-3.395v1.868m-51.013 0v-1.868m62.302 23.597v47.278m0 84.032v-58.568m56.87 196.074v17.485m-224.423-441.972v20.966m0 2.376v62.642"
@@ -116,7 +116,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M919.679 189.029h8.573m18.843 0h115.183m-115.183 0v3.395m-18.843-3.395v3.395"
@@ -124,7 +124,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M928.252 189.029h.933v2.291h-.933v-2.291m.933 0h.51v-16.976h-.51v16.976m16.977 0h.933v2.291h-.933v-2.291c0-9.167-7.3-16.722-16.467-16.976"
@@ -132,7 +132,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m609.186 139.883-.34.849-2.121-.764.255-.85 2.206.765m-5.092 14.514-.34.85-2.122-.765.34-.849 2.122.764m2.631-14.429-4.753 13.665m5.771-13.241-4.753 13.581m5.857-13.241-4.753 13.665"
@@ -140,7 +140,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M609.78 140.138c-4.753 10.185-7.214 21.39-7.214 32.594"
@@ -148,7 +148,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m603.754 155.246-.085.934-2.292-.255.17-.933 2.207.254m-1.867 16.552-.085.934-2.292-.255.17-.934 2.207.255m-.51-15.873-1.697 15.618m2.886-15.448-1.783 15.618m2.887-15.533-1.783 15.618m30.642-61.284.848-.509-1.273-1.867-.764.424 1.189 1.952m13.071-8.148.764-.51-1.188-1.952-.85.51 1.274 1.952m-13.496 5.772 12.223-7.725m-11.544 8.658 12.138-7.724m-11.544 8.658 12.223-7.64"
@@ -156,7 +156,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M728.104 111.024c-28.01-21.56-67.14-21.56-95.151 0"
@@ -164,7 +164,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M646.364 101.856 663.001 96l-.85.34-.763-2.123.849-.34L663 96"
@@ -172,7 +172,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m647.213 101.517-.849.34-.764-2.123.934-.34.679 2.123m14.175-7.3-14.854 5.178m15.193-4.159-14.854 5.177m15.279-4.073-14.94 5.177m33.274-7.47L663.001 96l.933-.085-.254-2.292-.934.17.255 2.207"
@@ -180,7 +180,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m679.552 94.132.934-.085-.255-2.291-.933.17.254 2.206m-15.872-.509 15.618-1.698m-15.448 2.886 15.617-1.782m-15.533 2.886 15.618-1.783"
@@ -188,7 +188,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m605.452 138.1 4.329 2.038m-4.329-2.038c-5.008 10.865-7.555 22.748-7.555 34.632m32.17-65.443 2.886 3.735"
@@ -196,7 +196,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m751.87 139.883.34.849 2.122-.764-.34-.85-2.122.765m5.093 14.514.34.85 2.122-.765-.34-.849-2.122.764m-2.631-14.429 4.753 13.665m-5.857-13.241 4.754 13.581m-5.772-13.241 4.753 13.665"
@@ -204,7 +204,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m757.303 155.246.085.934 2.206-.255-.084-.933-2.207.254m1.867 16.552.085.934 2.207-.255-.085-.934-2.207.255m.424-15.873 1.783 15.618m-2.886-15.448 1.783 15.618m-2.886-15.533 1.782 15.618m-30.642-61.284-.849-.509 1.189-1.867.849.424-1.189 1.952m-13.071-8.148-.764-.51 1.188-1.952.764.51-1.188 1.952m13.411 5.772-12.223-7.725m11.629 8.658-12.223-7.724m11.629 8.658-12.223-7.64m-.764-.509L698.056 96l.849.34.764-2.123-.849-.34-.764 2.123"
@@ -212,7 +212,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m713.76 101.517.933.34.764-2.123-.934-.34-.764 2.123m-14.09-7.3 14.854 5.178m-15.193-4.159 14.853 5.177m-15.278-4.073 14.854 5.177m-33.273-7.47L698.056 96l-.933-.085.254-2.292.934.17-.255 2.207"
@@ -220,7 +220,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m681.42 94.132-.934-.085.255-2.291.933.17-.254 2.206m15.957-.509-15.703-1.698m15.533 2.886L681.59 93.03m15.532 2.885-15.702-1.783"
@@ -228,7 +228,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m755.605 138.1-4.329 2.038m-20.286-32.849-2.886 3.735m30.387 61.708c0-11.205-2.462-22.409-7.215-32.594m11.884 32.594c0-11.884-2.547-23.767-7.555-34.632m-24.615-30.811c-29.708-22.918-71.215-22.918-100.923 0M174.175 506.057l-40.064-40.064m-2.716 2.632 2.716-2.632m-2.716 2.632 41.252 41.167m54.238-37.432h53.135m-54.663 3.819h54.663m-122.567-67.904 2.631-2.632m1320.4 87.597V737.1M378.227 167.3v21.729M982.745 167.3v20.031m497.739 89.209v-11.374M114.164 533.473v3.82m0-3.82h77.666m-77.666 3.82h78.854m87.002 22.917h-70.196m70.196 3.735h-66.29m1088.505 89.634h84.88m94.302 121.294h-38.536m-55.766-121.294v79.787m-41.506-39.129v80.636m-3.82-58.568h-45.156m183.851 20.796v-460.56m-233.167 377.038h45.58m-51.267 5.687h139.798m99.989 115.607v11.204m0 22.748V940.56m-99.989-281.294v78.769m-39.639-38.111v74.949m-44.223 28.01h-.933m.933-17.485h-.933m116.795-47.363h-32m33.867-6.96-7.47 26.992M378.227 167.13H252.944m1227.54 306.418V265.166M1225.163 167.3H982.745m543.065 97.866v666.396m-2.886-666.396v666.99m-226.291-237.919h48.976m-48.976 5.687h45.156m136.148 56.785h-28.944"
@@ -236,7 +236,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -260,7 +260,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M281.124 361.845v18.08"
@@ -268,7 +268,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 361.845v18.08"
@@ -276,7 +276,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 379.925v1.018h2.207v-1.018h-2.207"
@@ -284,7 +284,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M282.227 380.943v18.504"
@@ -292,7 +292,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M281.124 380.943v18.504"
@@ -300,7 +300,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 380.943v18.504"
@@ -308,7 +308,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 399.447v.934h2.207v-.934h-2.207"
@@ -316,7 +316,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M282.227 400.38v18.335"
@@ -324,7 +324,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M281.124 400.38v18.335"
@@ -332,7 +332,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 400.38v18.335"
@@ -340,7 +340,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 418.715v.934h2.207v-.934h-2.207"
@@ -348,7 +348,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M282.227 419.649v14.344"
@@ -356,7 +356,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M281.124 419.649v14.344"
@@ -364,7 +364,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 419.649v14.344"
@@ -372,7 +372,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 360.911v.934h-2.206v-.934h2.206m0 21.645v.934h-2.206v-.934h2.206"
@@ -380,7 +380,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 361.845v20.71"
@@ -388,7 +388,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1079.933 361.845v20.71"
@@ -396,7 +396,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 361.845v20.71"
@@ -404,7 +404,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 404.625v.933h-2.206v-.933h2.206"
@@ -412,7 +412,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 383.49v21.135"
@@ -420,7 +420,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1079.933 383.49v21.135"
@@ -428,7 +428,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 383.49v21.135"
@@ -436,7 +436,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 426.354v.934h-2.206v-.934h2.206"
@@ -444,7 +444,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 405.558v20.796"
@@ -452,7 +452,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1079.933 405.558v20.796"
@@ -460,7 +460,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 405.558v20.796m-2.206.934v19.947"
@@ -468,7 +468,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1079.933 427.288v19.947m0 2.801v4.159"
@@ -476,7 +476,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 427.288v19.947"
@@ -484,7 +484,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M904.485 174.43h-.933v2.29h.933v-2.29m-25.549 0h-.933v2.29h.933v-2.29m24.616 2.29h-24.616m24.616-2.29h-24.616m-12.732 0h-.933v2.29h.933v-2.29m-25.464 0h-1.018v2.29h1.018v-2.29m24.53 2.29h-24.53m24.53-2.29h-24.53m-12.817 0h-.934v2.29h.934v-2.29m-25.463 0h-.935v2.29h.934v-2.29m24.531 2.29h-24.53m24.53-2.29h-24.53m-281.21 0h-.933v2.29h.933v-2.29m-25.464 0h-.933v2.29h.933v-2.29m24.531 2.29h-24.53m24.53-2.29h-24.53m-12.733 0h-1.018v2.29h1.018v-2.29m-25.549 0h-.933v2.29h.933v-2.29m24.531 2.29h-24.53m24.53-2.29h-24.53"
@@ -492,7 +492,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M432.805 188.35h-.934v2.291h.934v-2.291m-.934 0h-.594v-16.977h.594v16.977m-16.976 0h-.933v2.291h.933v-2.291m16.382-16.977c-9.167.255-16.382 7.81-16.382 16.977m-19.862 0h.934v2.291h-.934v-2.291m.934 0h.594v-16.977h-.594v16.977"
@@ -500,7 +500,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M413.028 188.35h.934v2.291h-.934v-2.291c0-9.168-7.3-16.722-16.467-16.977m210.673-32.763.51-.764 1.952 1.188-.51.849-1.952-1.273m.509-.764.34-.51-14.43-8.997-.34.425 14.43 9.082m9.083-14.43.424-.764 1.952 1.188-.509.85-1.867-1.274c-7.81-4.838-17.995-2.716-23.173 4.923m37.263-19.437-.68.679 1.613 1.612.68-.679-1.613-1.612"
@@ -508,7 +508,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m630.237 109.58-.34.425-12.053-12.053.425-.424 11.968 12.053m-11.968 12.053-.68.679 1.613 1.527.68-.594-1.613-1.612"
@@ -516,7 +516,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M617.844 97.952c-6.28 6.706-6.111 17.146.425 23.682m135.554 16.976-.51-.764-1.952 1.188.51.849 1.952-1.273m-.51-.764-.34-.51 14.43-8.997.255.425-14.345 9.082m-9.082-14.43-.51-.764-1.867 1.188.51.85 1.867-1.274"
@@ -524,7 +524,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M767.403 128.34c-5.177-7.64-15.363-9.762-23.172-4.924m-14.175-14.514.68.679-1.614 1.612-.594-.679 1.528-1.612"
@@ -532,7 +532,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m730.735 109.58.425.425 12.053-12.053-.425-.424-12.053 12.053m12.053 12.053.68.679-1.614 1.527-.679-.594 1.613-1.612c6.451-6.536 6.62-16.976.425-23.682"
@@ -540,7 +540,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m1407.826 758.067 2.97 1.527-6.535-.509 2.886 1.528-6.96 25.21m-54.578-10.95h57.633m-101.007-121.294c-.51-2.547-3.056-4.16-5.602-3.65a4.515 4.515 0 0 0-3.65 3.65M338.588 845.324h-60.52m0-25.549v25.549m0-186.228v151.427m0-160.594v-85.984m1018.565 210.928h11.034m28.774 0h5.348m-45.156 5.857h11.034m94.217 0h-65.443"
@@ -548,7 +548,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M470.237 174.43h-.933v2.29h.933v-2.29m38.281 0h-.933v2.29h.933v-2.29m306.673 0h-.934v2.29h.934v-2.29m38.281 0h-.934v2.29h.934v-2.29m38.281 0h-1.018v2.29h1.018v-2.29m-12.817 1.188h11.799m12.817 0h-11.799m-26.483 0h-11.798m-12.732 0h11.798m-25.548 0h-11.8m-12.73 0h11.797m-255.659.169h-6.366m-31.915-.169h-11.799m-12.732 0h11.799m-25.549 0h-11.799m-12.732 0h11.799"
@@ -556,7 +556,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M224.254 146.334h-37.008m-80.721-20.796H95.15m-1.187-9.931 11.204-1.613m1.358 53.136H95.15m-1.187 9.93 11.204 1.613m130.376-52.201h-53.135m53.135.933h-53.135m53.135-.933v.933m-11.289-1.867v.934m-5.263 0v-.934m-5.347.934v-.934m-5.263.934v-.934m-5.262.934v-.934m-5.348.934v-.934m-5.262.934v-.934m-53.135 41.592v-41.592m-5.263 41.592v-41.592m-5.263 41.592v-41.592m58.398.934v-.934m44.732 40.572h-49.57m50.504-.933h-50.504m41.846-37.772v37.772m-5.263 0v-37.772m-5.347 37.772v-37.772m-5.263 37.772v-37.772m-5.262 37.772v-37.772m-5.348 37.772v-37.772m-5.262 37.772v-37.772m-5.263 37.772v-37.772m37.008 38.705v1.02m-5.263 0v-1.02m-5.347 1.02v-1.02m-5.263 1.02v-1.02m-5.262 1.02v-1.02m-5.348 1.02v-1.02m-5.262 1.02v-1.02m-31.915-40.572v41.591m-5.348.001v-41.592m-5.262 41.592v-41.592m-5.263 41.592v-41.592m21.135 41.592v-41.592m21.39 41.592v-1.02"
@@ -564,7 +564,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -588,7 +588,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1420.558 789.472c.255 9.167 7.809 16.467 16.976 16.467m-87.427 125.368v35.65m4.753-35.65v34.717m44.732-34.717v25.72m4.754-25.72v24.7"
@@ -596,7 +596,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1437.11 810.692h-22.918V780.73m28.689 5.347h38.536m0 22.748h-38.536m-5.771-28.095h-35.48m41.251-5.857h-39.639m33.868 150.068h-140.477m146.248 5.857h-146.248m146.248-142.768h-5.771m5.771 18.843h-5.771m3.48-29.623h-38.027m38.96-1.019h-38.705m37.772 30.642v122.143m0-151.766v10.78m.933 18.843v123.076m0-153.718v11.798m-4.413 18.844v118.663m0-137.506v-7.3m5.771 150.577V806.873m0-18.843v-13.157m-2.291 153.549h-143.957m144.89 1.018h-144.89m143.702-141.41v.933h-2.801v-.934h2.801m0 17.911v.933h-2.801v-.934h2.801m-103.894-25.209h-28.774m162.376 28.095v-22.748m-5.177 22.748v-22.748m-1.019 10.95h8.064"
@@ -604,7 +604,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -628,7 +628,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M317.368 194.546v.934m0 64.339v.934m5.602-44.817v23.427m.934-.934v-21.56m4.753 43.883v1.104m42.355-1.104v1.104m-5.347-1.104v1.104m-5.263-1.104v1.104m-5.262-1.104v1.104m-5.348-1.104v1.104m-5.262-1.104v1.104m-5.263-1.104v1.104m-5.347-1.104v1.104m37.092-24.361v.934m-5.347-.934v.934m-5.263-.934v.934m-5.262-.934v.934m-5.348-.934v.934m-5.262-.934v.934m-5.263-.934v.934m-5.347-.934v.934m37.092.934v20.456m-5.347-20.456v20.456m-5.263-20.456v20.456m-5.262-20.456v20.456m-5.348-20.456v20.456m-5.262-20.456v20.456m-5.263-20.456v20.456m-5.347-20.456v20.456m-5.263-20.456v20.456m31.745-66.377v1.104m-5.262-1.104v1.104m-5.348-1.104v1.104m-5.262-1.104v1.104m-5.263-1.104v1.104m-5.347-1.104v1.104m-5.263-1.104v1.104m31.745 22.324v.933m-5.262-.933v.933m-5.348-.933v.933m-5.262-.933v.933m-5.263-.933v.933m-5.347-.933v.933m-5.263-.933v21.559m31.745-42.949v20.456m-5.262-20.456v20.456m-5.348-20.456v20.456m-5.262-20.456v20.456m-5.263-20.456v20.456m-5.347-20.456v20.456m-5.263-20.456v20.456m47.618 23.427v20.456m5.262-20.456v20.456m-5.262.933v1.104m5.262-1.104v1.104m-5.262-24.361v.934m5.262-.934v.934m-51.862-32.934H312.19m0 45.072v-45.072m81.4 45.072c0-.849-.594-1.443-1.443-1.443a1.43 1.43 0 0 0-1.443 1.443c0 .764.68 1.443 1.443 1.443a1.43 1.43 0 0 0 1.443-1.443Zm-76.222-56.021h59.755m-59.755.934h59.246m-52.71 21.39h40.063m-40.997-.934h41.591m6.451-21.39v-1.019m-5.347 1.019v-1.019m10.61 0v1.019m-5.263.934v9.676m-5.347-9.676v18.419m10.61-18.419v.509m-58.907 64.763h84.201m-84.201-.933h84.201m-77.665-21.39h77.665m-78.599.934h78.6m-72.913-1.868h63.49m-79.957 13.072h83.777m-9.082-11.204v20.456m0 .933v1.104m0-24.361v.934m5.262 21.39v-20.456m9.423-.934v.934m0 20.456v.934m-9.423-23.258v.934m0 22.323v1.104m-22.153-55.003 8.572-15.787m-49.909 26.737h34.8m6.537-10.95 2.461 2.207-6.196-2.122 2.461 2.207-6.705 10.695"
@@ -636,7 +636,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -660,14 +660,14 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1240.866 762.99v13.496m-10.525-13.496h10.525m-10.525 0v13.496m10.525 0h-10.525"
         fill="none"
         stroke="#b3b3b3"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         stroke-dasharray="4.004416792095601,1.9999960360749"
       />
       <path
@@ -676,7 +676,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M976.549 505.293v.594h16.976v-.594h-16.976m16.976-.933v.933h2.292v-.934h-2.292m0 34.971v.934h2.292v-.934h-2.292v-.594h-16.976v.594h16.976m-16.976-33.443c.34 9.167 7.809 16.382 16.976 16.382-9.167 0-16.637 7.3-16.976 16.467M1195.2 732.178v-.934h2.292v.934h-2.292m0-.934v-.594h-16.976v.594h16.976m0-16.976v-.933h2.292v.933h-2.292c-9.167 0-16.636 7.215-16.976 16.382"
@@ -684,7 +684,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1449.417 756.709h-.085m-.339 0 1.867 5.007m-1.867-5.007 1.867-5.008m.594.424-.848-.34m-1.189 4.924 1.868-4.839m-1.868 4.839 1.868 4.838m.085-.255-.68.34M187.67 146.334h-.084m-.34 0 1.867 4.923m-1.867-4.923 1.867-5.008m.595.424-.85-.34m-1.188 4.924 1.868-4.838m-1.868 4.838 1.868 4.838m.085-.255-.68.255m1275.413 645.855h-.085m-.424 0 1.952 4.923m-1.952-4.923 1.952-5.008m.594.424-.849-.34m-1.188 4.924 1.868-4.838m-1.868 4.838 1.868 4.838m.084-.255-.679.255"
@@ -692,7 +692,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M366.768 205.495h-37.093m37.093 0-3.99-9.676m3.99 9.676-3.99 9.677-2.206-2.632 6.196-7.045m-6.196-7.045 6.196 7.045m-6.196-7.045 2.207-2.631m521.759 621.07c0 10.95 8.913 19.862 19.862 19.862m0-19.862v19.862"
@@ -700,7 +700,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M926.13 975.7h-9.422m-151.172 0h-9.422m-151.172 0h-9.421"
@@ -708,7 +708,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M919.679 963.477V816.89m85.05-.001h-1.952m-17.316 0H923.16m81.569 70.196h-1.952m-17.316 0H923.16m81.569 3.48h-1.952m-17.316 0H923.16m81.569-24.531V816.89m0 67.988v2.207m3.481-21.051V813.41m-3.481 52.624h3.48m-3.48 18.844h3.48m-3.48 8.742v-3.055m0 21.899v56.615m3.481-75.459v-8.742m0 27.586v56.615m-3.481-75.459h3.48m-3.48 18.844h3.48m-85.05 51.013v-72.912m0-73.676v70.196M597.897 172.732v1.697m0-1.697h4.669v6.026h-4.669v-.849m330.355 14.515h-11.968v-14.515m-11.799.001v-3.48m-26.482 3.48v-3.48m-11.799 3.48v-3.48m-26.482 3.48v-3.48m-11.799 3.48v-3.48m-26.398 3.48v-3.48m102.96 3.48h11.799m-50.08 0h11.799m-76.478 0H763.16m64.763 0h11.799m-76.562-5.178v1.697m0-1.697h-4.669v6.026h4.668v-.849m183.936 14.515h111.703M549.516 896.761V813.41h335.022v3.48H552.996v79.872m455.214-83.353h-5.433m-17.316 0h-81.06v3.48h15.278"
@@ -716,7 +716,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M534.067 157.538v17.316h.85v-17.316zm-.933 17.316v1.867h.933v-1.867zm18.164 0v1.867h.934v-1.867z"
@@ -724,7 +724,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M551.298 174.854v-.85c-.378-8.702-7.624-16.143-16.382-16.381l-.849-.085"
@@ -732,13 +732,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M559.531 174.854v1.867h-.933v-1.867z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M283.755 172.732c0-2.547-2.122-4.669-4.753-4.669-2.547 0-4.669 2.122-4.669 4.669 0 2.63 2.122 4.753 4.669 4.753a4.745 4.745 0 0 0 4.753-4.753Zm802.968 0c0-2.547-2.122-4.669-4.753-4.669-2.546 0-4.668 2.122-4.668 4.669 0 2.63 2.122 4.753 4.668 4.753a4.745 4.745 0 0 0 4.753-4.753Z"
@@ -746,7 +746,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M283.755 172.732c0-2.547-2.122-4.669-4.753-4.669-2.547 0-4.669 2.122-4.669 4.669 0 2.63 2.122 4.753 4.669 4.753a4.745 4.745 0 0 0 4.753-4.753Zm802.968 0c0-2.547-2.122-4.669-4.753-4.669-2.546 0-4.668 2.122-4.668 4.669 0 2.63 2.122 4.753 4.668 4.753a4.745 4.745 0 0 0 4.753-4.753Zm-502.831-23.088c0-2.631-2.037-4.753-4.668-4.753a4.745 4.745 0 0 0-4.754 4.753 4.745 4.745 0 0 0 4.754 4.753c2.631 0 4.668-2.122 4.668-4.753Zm56.276-70.535c0-2.547-2.122-4.669-4.754-4.669a4.655 4.655 0 0 0-4.668 4.669c0 2.63 2.037 4.753 4.668 4.753a4.745 4.745 0 0 0 4.754-4.753Zm90.142 0c0-2.547-2.121-4.669-4.668-4.669-2.631 0-4.753 2.122-4.753 4.669a4.745 4.745 0 0 0 4.753 4.753c2.547 0 4.669-2.122 4.669-4.753Zm56.276 70.535a4.745 4.745 0 0 0-4.753-4.753 4.745 4.745 0 0 0-4.753 4.753 4.745 4.745 0 0 0 4.753 4.753 4.745 4.745 0 0 0 4.753-4.753Zm455.044 544.593h55.003m-60.605 5.687h54.918M927.063 969.08h363.883m-743.637-66.632H340.455m212.541-5.687H346.142v-57.04m-5.687 62.727v-57.124m206.854 129.442h744.57M445.282 272.975h-11.289m11.289-11.289v11.29m0-11.29h-11.289v3.31m0 7.979v-3.31m-148.371 91.246h-5.602m0 105.507v97.527m961.61 130.292v-46.345m-5.602 52.032v-52.032m5.602-153.039v21.729m0 47.278v25.464m-5.602-88.784v16.042m0 47.278v25.464M927.063 269.665h142.684m-142.684-4.668h153.973m-165.262 7.978h11.29m-11.29-11.289v11.29m0-11.29h11.29v3.31m-.001 7.979v-3.31m314.567 378.227h-5.602m0-58.568h5.602m0-72.742h-5.602m5.602 47.278h-5.602m-8.573-69.007v5.687m-126.557 0v-5.687m79.364 5.687v-5.687m-15.109 5.687v-5.687m76.477 0h-14.175m-146.419 0h19.862m64.255 0h15.109m55.766 5.687h-8.573m-126.557 0h-27.925m107.289 0h-15.11m131.481 193.697v275.861m-5.687-270.174v87.341m0 22.239v-22.239m-221.199-510.979v-6.621m0 6.621h5.687m0 212.031h-2.461m212.286 332.476h5.687m0-11.289h-5.687v11.29M915.774 969.08H605.876M338.842 845.324V563.945m5.688 275.777h1.612m-7.3 5.602h1.613m-1.613-281.379H280.02m11.29-5.687h53.22m-53.22-5.687h-5.688m5.688 5.687v-5.687m0-64.254v11.289m-5.688-11.289h5.687m-4.244-1.443h5.687m-12.732-20.456h5.602m5.688 33.188h-5.688m0 52.965v-52.965m5.688-160.594v-11.289h-5.688m0 11.289h5.687m-5.687-11.289v-51.437m0 84.625v-21.899m-5.602-74.015h153.973m0 4.668H291.31m0 6.621h-5.688m5.688-6.621v6.62m789.726 84.626h-5.602m0 127.406v-8.234m0-203.797v84.625m5.602 133.942v-15.364m0-214.492v95.914m209.91 571.755v36.413m0-36.413h-5.687m5.687-11.374h-5.687m0 11.374v-11.374M350.132 660.2v-11.29h-5.603m.001 11.29h5.602m-5.602 179.522V660.2m0-101.942v90.652"
@@ -754,7 +754,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M284.689 975.7c0-3.14-2.547-5.602-5.687-5.602a5.597 5.597 0 0 0-5.602 5.602c0 3.14 2.546 5.687 5.602 5.687a5.687 5.687 0 0 0 5.687-5.687Zm0-160.594c0-3.14-2.547-5.602-5.687-5.602a5.597 5.597 0 0 0-5.602 5.602c0 3.14 2.546 5.687 5.602 5.687a5.687 5.687 0 0 0 5.687-5.687Zm0-160.593c0-3.141-2.547-5.603-5.687-5.603a5.597 5.597 0 0 0-5.602 5.603c0 3.14 2.546 5.687 5.602 5.687a5.687 5.687 0 0 0 5.687-5.687ZM445.282 975.7c0-3.14-2.546-5.602-5.687-5.602a5.597 5.597 0 0 0-5.602 5.602c0 3.14 2.547 5.687 5.602 5.687a5.687 5.687 0 0 0 5.687-5.687Z"
@@ -762,7 +762,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1303.253 970.098v11.289h-11.374v-6.62m11.374-4.669h-6.62m-5.687-90.568h-1.868m0-16.976h1.868m-1.868 16.976v-16.976m1.868 58.738V879.53m0-58.737v41.761m-54.918-162.63h-37.857m37.857-3.65h-41.422m3.565 17.061v-13.411m0 32.254v44.902m-3.565-63.745v-17.061m0 35.904v44.902M993.355 540.264V780.73m3.565-240.466v236.9m294.026.001h-49.74M1072.973 500.54h-85.475m0-11.29v11.29m21.051-11.29v1.868m0-1.868h-21.05m85.474 1.868h-64.424M996.92 504.36v-3.82m-3.565 3.82v-3.82m133.517 276.54v3.735m-133.517-.085h70.196m2.886 0h57.549m-127.066-3.565h66.631m2.886 0h57.549m2.886-.085h114.334m0 3.735v-3.735m49.74 3.65h-49.74m-114.334.085h114.334M552.996 969.08v-72.32m-5.687 78.006v-72.318m379.754 61.029h-11.289v5.602m11.289.001v-5.603m-321.187 0h-11.289m11.289 5.603v-5.603m-11.289 0v5.602m-41.591.001h41.591m478.386-480.763v2.8"
@@ -770,7 +770,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m676.751 483.14 7.555 3.225m-7.555-3.225 7.555-3.141m-7.555-3.226 7.555 3.226m-7.555-3.226 7.555-3.225m-7.555-3.226 7.555 3.226m-7.555-3.226 7.555-3.225m-7.555-3.226 7.555 3.226m-7.555-3.226 7.555-3.225m-7.555-3.226 7.555 3.226m-7.555-3.226 7.555-3.225m-7.555-3.225 7.555 3.225m-7.555-3.225 7.555-3.226m-7.555-3.225 7.555 3.225m-7.555-3.225 7.555-3.226m-7.555-3.225 7.555 3.225m-7.555-3.225 7.555-3.226m-7.555-3.225 7.555 3.225m-7.555-3.225 7.555-3.226m-7.555-3.225 7.555 3.225m-3.82 63.83v-71.809m322.97-159.15v-.51h-17.061v.51h17.06m.001-.51c-.34-9.167-7.81-16.466-17.061-16.466"
@@ -778,7 +778,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M997.854 237.835v-45.411"
@@ -786,7 +786,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M778.777 285.368v-.594h-16.976v.594h16.976m0-.764c-.424-9.082-7.893-16.297-16.976-16.467"
@@ -794,13 +794,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M476.434 766.3v-11.968h-34.632V766.3zm0-11.968Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1183.657 790.406c0 1.613 2.037 2.97 4.583 2.97 2.547 0 4.669-1.357 4.669-2.97 0-1.613-2.122-2.886-4.669-2.886-2.546 0-4.583 1.273-4.583 2.886Zm-14.175 0c0 1.613 2.037 2.97 4.583 2.97 2.632 0 4.669-1.357 4.669-2.97 0-1.613-2.037-2.886-4.669-2.886-2.546 0-4.583 1.273-4.583 2.886Zm42.44 0c0 1.613 2.122 2.97 4.668 2.97 2.547 0 4.669-1.357 4.669-2.97 0-1.613-2.122-2.886-4.669-2.886-2.546 0-4.668 1.273-4.668 2.886Zm-14.175 0c0 1.613 2.122 2.97 4.668 2.97 2.547 0 4.669-1.357 4.669-2.97 0-1.613-2.122-2.886-4.669-2.886-2.546 0-4.668 1.273-4.668 2.886Z"
@@ -808,7 +808,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 780.73V968.4"
@@ -816,7 +816,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.948 874.777v1.528h4.414v-8.828h-4.414v1.528m-1.698 1.613c-.763.679-.763 1.782 0 2.546m.51-2.037-.17.17s-.084.085-.084.17-.085.085-.085.17v.593c.085 0 .085.085.085.17l.17.17.084.084m-.51.51 1.699 1.613m-1.189-2.122 1.698 1.528m-2.208-3.565 1.699-1.613m-1.189 2.122 1.698-1.528"
@@ -824,7 +824,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.948 868.326h1.698v3.565"
@@ -832,7 +832,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.948 875.371h1.698v-3.48m-1.188-2.291v-1.274m0 5.857v1.188m-.594-15.703v1.613h4.413v-8.912h-4.413v1.612m-1.698 1.529c-.764.763-.764 1.867 0 2.63m.509-2.037-.085.085c-.084.085-.084.17-.17.17v.255c-.084 0-.084.085-.084.17v.17c0 .084.085.084.085.169s0 .17.085.17c0 .085.084.17.17.17v.084m-.51.594 1.698 1.528m-1.189-2.122 1.698 1.613m-2.207-3.649 1.698-1.529m-1.189 2.122 1.698-1.612"
@@ -840,7 +840,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.864 853.302h1.782v3.565"
@@ -848,7 +848,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.864 860.347h1.782v-3.48m-1.273-2.377v-1.188m0 5.858v1.187m-.509-13.92v1.613h4.413v-8.913h-4.413v1.613m-1.698 1.613c-.764.679-.764 1.782 0 2.546m.509-2.037c0 .085-.085.085-.085.17-.084 0-.084.085-.17.17v.17c-.084.084-.084.084-.084.17v.169c0 .085.085.17.085.17 0 .085 0 .17.085.254l.17.17m-.51.595 1.698 1.527m-1.189-2.122 1.698 1.613m-2.207-3.565 1.698-1.613m-1.189 2.122 1.698-1.528"
@@ -856,7 +856,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.864 840.061h1.782v3.565"
@@ -864,7 +864,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1217.864 847.106h1.782v-3.48m-1.273-2.292v-1.273m0 5.857v1.188"
@@ -872,7 +872,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M600.19 285.368V179.777m-79.449 148.625v-17.57"
@@ -880,7 +880,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M518.195 446.895v-117.56m3.48 121.04v-121.04m-3.48.001h3.48m-99.31 117.559V271.108m3.48 175.787V274.758m92.35 0h-92.35m95.83-3.48h-76.393m72.913 175.617h-92.35m95.83 3.48H417.866m4.499-3.48h-4.499v3.48m100.329-158.811v-16.806m3.48 16.806v-1.782m0-3.48v-15.024m-3.48 20.286h3.48m43.798 200.403v-78.005m0-75.544v-3.735m3.48 157.369v-78.09m0-75.544v-2.886m226.631-4.414H565.813m3.14 4.414H792.19"
@@ -888,13 +888,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M346.821 778.098v-17.315h12.902v17.315zm0-17.315Zm15.873 17.4v-17.4h12.902v17.4zm0-17.4Zm15.533 17.4v-17.4h12.987v17.4zm0-17.4Z"
         fill="none"
         stroke="gray"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M345.888 799.658h46.684"
@@ -902,14 +902,14 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M344.275 545.611c-4.16-16.042-16.127-29.03-31.915-34.461"
         fill="none"
         stroke="#b3b3b3"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         stroke-dasharray="8.0044091471794,4.004416792095601"
       />
       <path
@@ -917,7 +917,7 @@ export default function CCLMap() {
         fill="none"
         stroke="#b3b3b3"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         stroke-dasharray="8.0044091471794,4.004416792095601"
       />
       <path
@@ -925,7 +925,7 @@ export default function CCLMap() {
         fill="none"
         stroke="#b3b3b3"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         stroke-dasharray="8.0044091471794,4.004416792095601"
       />
       <path
@@ -934,7 +934,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M345.888 815.106h50.164m-50.164-3.48h46.684"
@@ -942,7 +942,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M359.129 811.371h20.201"
@@ -950,7 +950,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M345.803 760.189h50.249m-7.045-3.48v-11.035m-5.177 11.035v-14.515m12.222-97.867v-64.34m0-17.315v-4.414m-3.48 86.069v-1.867m0-3.48v-58.992m0-17.316v-.934m3.48 218.228v-19.777m-3.48 19.777v-19.777m3.48 0v-3.48m-3.48 23.257h3.48M345.888 642.46h46.684m-46.684-3.48h46.684m0 5.347h3.48m-3.48 20.117h3.48m45.75-50.08h156.18m-156.18-3.48h156.18m4.414 31.491h156.18m4.414.085h181.22m-341.814-3.565h156.69m3.479 0H944.21m-25.04 142.259h28.52m-24.107-3.48h20.626M602.396 496.126h189.793m37.431 0h93.963m-355.224-4.414h223.83m33.951 0h97.443m-161.018 38.621h67.056m-70.536-3.481h33.104m3.395 0h30.557m176.551-76.477h76.137m-73.761-3.48h73.762m-76.138-62.642h76.137m-76.137-2.376h76.137m55.851 453.516h56.107"
@@ -958,7 +958,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1135.614 836.326h54.24m-54.24 10.865h54.24"
@@ -966,7 +966,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1194.267 835.393h28.86m-88.447-3.48h92.86m-57.634 101.517h1.273m17.316 0h35.565m-54.154-3.48h1.273m17.316 0h34.631M602.396 766.3V642.375m0-3.48v-142.77M597.982 766.3V614.364m0-3.48V496.126M986.31 263.554v-2.292m0-17.231v-51.607m-2.292 71.13v-2.292m0-17.231v-51.607m-1.952 186.822v-29.284m0-2.377v-76.477m-2.292 108.138V325.43m0-2.29v-52.032m25.21 83.692v-36.16m-2.292 36.16v-4.838m0-2.377V316.35m-25.974 134.025v-18.758m-2.376 15.278v-15.278m160.338 420.667v-16.891"
@@ -974,7 +974,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1135.614 847.191v-10.865"
@@ -982,7 +982,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1134.68 831.913v-29.624m-3.48 49.995v-49.995m96.34 166.111v-15.788m0-17.315V831.913m-3.48 137.167v-16.468m0-17.315v-1.868m-.934-3.479v-94.557M762.99 766.3V642.46m-.425-3.565V530.333M758.576 766.3V642.375m.509-3.48V526.852m70.535 3.481v-34.207m-3.48 30.726v-35.14m-363.542 0v4.414M947.69 781.154V636.518m-3.48 141.156V642.46m0-3.565v-2.377h3.48m-601.802-74.78h46.684m-46.684-3.48h50.164M759.85 289.866v-3.564M896.591 322.8v-2.377m178.843 159.66h5.602"
@@ -990,7 +990,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M792.189 498.078v.51h-17.061v-.51h17.06"
@@ -998,7 +998,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M775.128 498.587c.424 9.167 7.893 16.467 17.06 16.722"
@@ -1006,7 +1006,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M792.189 498.078h3.395m-3.395 17.231h3.395M1131.2 802.29h3.48m-3.48 49.994h3.48m59.587 0v-16.891m-3.48 16.891v-16.891"
@@ -1014,7 +1014,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1189.853 847.191v-10.865"
@@ -1022,7 +1022,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1190.787 852.284h3.48"
@@ -1030,7 +1030,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1206.83 936.146c.254 9.252 7.978 16.636 17.23 16.466"
@@ -1038,13 +1038,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1206.83 935.297v.849h17.23v-.85zm0 .849Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1224.06 935.297h3.48m-3.48 17.315h3.48m-57.634 16.468v-35.65m0-3.48v-24.192m0-22.663v-3.48m-3.48 89.465v-59.841m-91.841-40.319v-52.03m-39.978 52.03v-45.07m0-4.754v-5.687m-3.48 58.991v-55.51m75.203 66.205h63.576m-63.576-3.48h63.576m-138.779-7.215h43.459m-39.979-3.48h39.979m3.48 100.16V816.888m-3.481 152.192V872.4m87.682-67.904V784.04"
@@ -1052,7 +1052,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1163.285 795.838v-10.864"
@@ -1060,7 +1060,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1158.787 804.496v-23.002m0 23.002h3.48m-157.199-357.601v-15.278m-2.376 18.758v-18.758M897.1 446.895v-49.23m-2.376 49.23v-49.23m-99.14 100.413v-84.116m0-75.544v-7.3m-3.395 160.594v-77.75m0-75.544v-2.886m48.806 111.363V379.5m0-2.376V322.8m0-2.377v-56.445m-3.48 186.397V289.866m.509-3.564v-22.324m-.509 25.888h-77.666m78.175-3.564h-78.175M896.591 322.8h-55.596m55.596-2.377h-55.596m138.779 5.008H923.33m56.444-2.291H923.33v2.291m53.388 124.944H837.515m57.209-3.48h-53.73m56.106-49.23h-2.376m79.618 33.952h2.376m25.974 0h2.376m-30.726 15.278H897.1"
@@ -1068,7 +1068,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 380.434v.594h-16.976v-.594h16.976m-16.976.594c.424 9.167 7.809 16.467 16.976 16.637"
@@ -1076,7 +1076,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M896.591 379.5h-55.596m55.596-2.376h-55.596m55.596 0v2.376m83.183-.254h2.292m91.586-60.606h-68.668m68.668-2.29h-70.96m0 38.45h2.292m-2.292 27.077v2.376M986.31 261.262h-2.292m2.292-17.231h-2.292"
@@ -1084,7 +1084,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M997.854 237.835H986.31"
@@ -1092,7 +1092,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1227.54 968.4h54.493"
@@ -1100,7 +1100,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1188.495 929.95c.17-9.253-7.13-16.977-16.467-17.231"
@@ -1108,13 +1108,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1172.028 912.719v17.23h-.849v-17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1171.18 929.95v3.48m17.315-3.48v3.48"
@@ -1122,7 +1122,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1194.522 898.289a7.32 7.32 0 0 0 5.177-2.122"
@@ -1130,7 +1130,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1225.078 795.244V784.04m-118.748 95.575V813.41m-3.394 95.829v-92.35"
@@ -1138,7 +1138,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1083.838 816.889c-.17 9.252 7.13 16.976 16.381 17.23"
@@ -1146,13 +1146,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1100.22 834.12v-17.231h.848v17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1008.21 816.889h3.564m17.316 0h2.037m15.448 0h8.658m17.231 0h2.122m3.48 0h5.771m17.231 0h1.868m-94.726-3.48h3.564m17.316 0h5.517m8.997 0h11.629m17.231 0h11.373m17.231 0h5.263m-5.263 3.48v-3.48m-17.23 3.48v-3.48"
@@ -1160,7 +1160,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1055.233 816.889c-.17 9.252 7.13 16.976 16.382 17.23"
@@ -1168,13 +1168,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1071.615 834.12v-17.231h.848v17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1072.464 816.889v-3.48m-17.231 3.48v-3.48"
@@ -1182,7 +1182,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1011.774 816.889c-.17 9.252 7.13 16.976 16.467 17.23"
@@ -1190,13 +1190,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1028.24 834.12v-17.231h.85v17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1011.774 816.889v-3.48m17.316 3.48v-3.48"
@@ -1204,7 +1204,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M595.606 269.07c-9.337.255-16.637 7.98-16.467 17.231"
@@ -1212,13 +1212,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M595.606 269.07v17.231h.848v-17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M502.492 293.431c-.255 8.913 6.79 16.297 15.618 16.467.51.085 1.103 0 1.697 0"
@@ -1226,13 +1226,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M502.492 292.583v.848h17.315v-.848zm0 .848Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M442.82 492.646h18.844m-23.342 40.742V588.9m0 62.472v-12.223m117.475 129.697h20.795m47.278 0h112.128m49.74 0H918.15m28.606-151.511v-55.427"
@@ -1240,7 +1240,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M945.737 618.269c-9.252-.17-16.976 7.214-17.23 16.466"
@@ -1248,19 +1248,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M928.506 635.584v-.849h17.231v.85zm0-.849Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M945.737 617.335v.934h1.952v-.934zm0 .934Zm0 17.315v.934h1.952v-.934zm0 .934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M760.783 179.777v87.342m81.145-2.122h17.146m.934 0h16.891m.934 0h16.891m.934.933v17.146m0 .934v17.146m0 40.827v16.637m0 .933v16.637m28.604-49.74v15.448m0 .934v15.448m.934 20.032h17.23m.934 0h16.722m.934 0h17.74m-2.971 23.597v13.92m0 .934v13.835m-106.27-194.885h17.74m.933 0h17.825"
@@ -1268,7 +1268,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M784.72 767.913c.254-9.252-7.13-16.976-16.383-17.316"
@@ -1276,19 +1276,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M768.337 750.597v17.316h-.849v-17.316Zm16.383 17.316v1.867h1.018v-1.867Zm-18.165 0v1.867h.933v-1.867Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M918.151 767.913v1.867h.934v-1.867z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M753.398 750.597c-9.337.34-16.636 8.064-16.467 17.316"
@@ -1296,13 +1296,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M753.313 750.597v17.316h.934v-17.316Zm-16.382 17.316v1.867h-.933v-1.867Zm18.249 0v1.867h-.933v-1.867Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M439.256 638.216c10.61-.425 19.268-8.658 20.201-19.268"
@@ -1310,13 +1310,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M459.457 618.099v.849h-20.116v-.85zm0 .849Zm-20.201 20.202v-.934h-1.867v.933zm0-.934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M456.572 606.216c-.68-9.762-8.743-17.316-18.504-17.316"
@@ -1324,19 +1324,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M456.572 607.064v-.848H439.34v.848zm0-.848ZM439.34 588.9v.934h-1.951v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M439.34 652.306v-.934h-1.951v.934zm0-.934Zm0-118.917v.933h-1.951v-.933zm0 .933Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M383.83 742.194h8.742"
@@ -1344,13 +1344,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1035.54 817.992v-6.96h6.706v6.96zm0-6.96Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1034.607 823.849h11.968m-11.968-4.753h8.997m2.971 4.753v-6.96m-2.971 2.207v-5.687"
@@ -1358,13 +1358,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M461.664 493.664v-1.952h.934v1.952Zm-19.862 0v-1.952h1.019v1.952Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M416.084 431.192c-9.252.34-16.552 8.064-16.382 17.316"
@@ -1372,13 +1372,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M416.084 431.192v17.316h.848v-17.316Zm-16.382 17.316v1.867h-.934v-1.867Zm18.164 0v1.867h-.934v-1.867Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M343.256 449.442h55.512"
@@ -1386,19 +1386,19 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M976.718 401.909v-1.868h-1.952v1.868zm0-1.868Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1194.522 919.17v10.78h-.595v-10.78zm0 10.78Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1219.137 922.65c.085 0 .085 0 .085.085 0 .084 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm0-2.632c.085 0 .085 0 .085.085s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm-7.639 2.802.34.254m-.001-3.225-.34.254m10.865 2.037v-1.443m.255 1.103v-.678h-.17m.17.678h-.17m0-.763v.849m0-.849h-.085m.085.849h-.085m.255-.425h-4.753"
@@ -1406,7 +1406,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -1790,7 +1790,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -2172,7 +2172,7 @@ export default function CCLMap() {
         d="M1194.522 898.289v5.347h-.595v-5.347zm0 5.347Zm28.604-2.801v.595h-28.604v-.595Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1193.927 903.636c-8.318 0-15.193 6.621-15.533 14.94"
@@ -2180,13 +2180,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1193.927 918.575v.595h-15.533v-.595Zm29.199-34.97v.594h-28.604v-.594Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1219.137 893.62c.085 0 .085.085.085.17s0 .085-.085.085-.17 0-.17-.085.085-.17.17-.17Zm0-2.63c.085 0 .085.084.085.084 0 .085 0 .17-.085.17a.183.183 0 0 1-.17-.17s.085-.085.17-.085Zm-7.639 2.8.34.255m-.001-3.225-.34.254m10.865 2.037v-1.358m.255 1.019v-.68h-.17m.17.68h-.17m0-.764v.849m0-.849h-.085m.085.849h-.085m.255-.425h-4.753"
@@ -2194,7 +2194,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -2576,7 +2576,7 @@ export default function CCLMap() {
         d="M1194.522 883.605v3.14h-.595v-3.14zm0 3.14Zm5.686 9.167-.509.255-5.687-9.082.51-.34z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 936.57a7.32 7.32 0 0 0 5.178-2.122"
@@ -2584,13 +2584,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1253.428 957.45v10.78h-.594v-10.78zm0 10.78Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 960.93c.085 0 .085.086.085.17 0 .085 0 .085-.085.085s-.17 0-.17-.085c0-.084.085-.17.17-.17Zm0-2.63c.085 0 .085 0 .085.084 0 .085 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm-7.639 2.8.339.255m0-3.225-.34.254m10.866 2.037v-1.358m.254 1.019v-.68h-.17m.17.68h-.17m0-.764v.849m0-.849h-.085m.085.849h-.085m.255-.425h-4.753"
@@ -2598,7 +2598,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -2980,13 +2980,13 @@ export default function CCLMap() {
         d="M1253.428 936.57v5.347h-.594v-5.347zm0 5.347Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1282.033 939.116v.595h-28.605v-.595Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1252.834 941.917c-8.318 0-15.193 6.621-15.533 14.94"
@@ -2994,13 +2994,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1252.834 956.856v.595h-15.533v-.595Zm29.199-34.97v.594h-28.605v-.594Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 931.986c.085 0 .085.085.085.17 0 0 0 .085-.085.085s-.17-.085-.17-.085c0-.085.085-.17.17-.17Zm0-2.631c.085 0 .085 0 .085.085s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm-7.639 2.801.339.255m0-3.226-.34.255m10.866 2.037v-1.358m.254 1.019v-.68h-.17m.17.68h-.17m0-.764v.849m0-.849h-.085m.085.849h-.085m.255-.425h-4.753"
@@ -3008,7 +3008,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -3390,13 +3390,13 @@ export default function CCLMap() {
         d="M1253.428 919.34v5.686h-.594v-5.687zm0 5.686Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 934.193-.509.255-5.602-9.082.424-.34z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 919.34c1.953-.086 3.82-.85 5.178-2.123"
@@ -3404,13 +3404,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 904.57v.594h-28.605v-.594Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 914.67c.085 0 .085.086.085.17 0 .086 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.084.085-.17.17-.17Zm0-2.63c.085 0 .085.084.085.17 0 .084 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.086.085-.17.17-.17Zm-7.639 2.886.339.254m0-3.225-.34.254m10.866 2.037v-1.442m.254 1.103v-.764h-.17m.17.764h-.17m0-.849v.934m0-.934h-.085m.085.934h-.085m.255-.425h-4.753"
@@ -3418,7 +3418,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -3800,7 +3800,7 @@ export default function CCLMap() {
         d="M1253.428 902.024v5.772h-.594v-5.772zm0 5.772Zm5.687 9.082-.509.34-5.602-9.168.424-.254z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 902.024a7.32 7.32 0 0 0 5.178-2.122"
@@ -3808,13 +3808,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 887.34v.594h-28.605v-.595z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 897.44c.085 0 .085.085.085.17s0 .085-.085.085-.17 0-.17-.085.085-.17.17-.17Zm0-2.631c.085 0 .085.085.085.17s0 .085-.085.085-.17 0-.17-.085.085-.17.17-.17Zm-7.639 2.801.339.255m0-3.225-.34.254m10.866 2.036v-1.357m.254 1.018v-.679h-.17m.17.679h-.17m0-.764v.85m0-.85h-.085m.085.849h-.085m.255-.424h-4.753"
@@ -3822,7 +3822,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -4204,7 +4204,7 @@ export default function CCLMap() {
         d="M1253.428 884.793v5.687h-.594v-5.687zm0 5.687Zm5.687 9.167-.509.255-5.602-9.082.424-.34z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 884.793c1.953-.085 3.82-.764 5.178-2.122"
@@ -4212,13 +4212,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 870.024v.594h-28.605v-.594z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 880.125c.085 0 .085.084.085.17 0 .084 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.086.085-.17.17-.17Zm0-2.632c.085 0 .085.085.085.17s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.17.17-.17Zm-7.639 2.887.339.254m0-3.226-.34.255m10.866 2.037v-1.443m.254 1.103v-.763h-.17m.17.763h-.17m0-.848v.934m0-.934h-.085m.085.934h-.085m.255-.425h-4.753"
@@ -4226,7 +4226,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -4608,13 +4608,13 @@ export default function CCLMap() {
         d="M1253.428 867.562v5.687h-.594v-5.687zm0 5.688Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 882.331-.509.34-5.602-9.167.424-.255z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 867.477a7.62 7.62 0 0 0 5.178-2.037"
@@ -4622,13 +4622,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 852.793v.594h-28.605v-.594z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 862.894c.085 0 .085.085.085.17s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.17.17-.17Zm0-2.631c.085 0 .085.084.085.17 0 .084 0 .084-.085.084s-.17 0-.17-.085.085-.17.17-.17Zm-7.639 2.801.339.254m0-3.225-.34.254m10.866 2.123v-1.443m.254 1.018v-.679h-.17m.17.679h-.17m0-.764v.934m0-.934h-.085m.085.934h-.085m.255-.509h-4.753"
@@ -4636,7 +4636,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -5018,13 +5018,13 @@ export default function CCLMap() {
         d="M1253.428 850.247v5.687h-.594v-5.687zm0 5.687Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 865.1-.509.34-5.602-9.167.424-.34z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 850.247a7.32 7.32 0 0 0 5.178-2.122"
@@ -5032,13 +5032,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 835.562v.595h-28.605v-.595z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 845.663c.085 0 .085 0 .085.085s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm0-2.716c.085 0 .085.085.085.17s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.17.17-.17Zm-7.639 2.886.339.255m0-3.226-.34.255m10.866 2.037v-1.443m.254 1.103v-.679h-.17m.17.679h-.17m0-.764v.85m0-.85h-.085m.085.85h-.085m.255-.425h-4.753"
@@ -5046,7 +5046,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -5428,13 +5428,13 @@ export default function CCLMap() {
         d="M1253.428 832.931v5.772h-.594v-5.772zm0 5.772Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 847.785-.509.34-5.602-9.083.424-.339z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 832.931a7.62 7.62 0 0 0 5.178-2.037"
@@ -5442,13 +5442,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1282.033 818.247v.594h-28.605v-.594z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1278.044 828.348c.085 0 .085.084.085.17 0 .084 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.086.085-.17.17-.17Zm0-2.632c.085 0 .085.085.085.17s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.17.17-.17Zm-7.639 2.801.339.255m0-3.225-.34.254m10.866 2.122v-1.443m.254 1.104v-.764h-.17m.17.764h-.17m0-.849v.934m0-.934h-.085m.085.934h-.085m.255-.509h-4.753"
@@ -5456,7 +5456,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -5838,13 +5838,13 @@ export default function CCLMap() {
         d="M1253.428 815.7v5.687h-.594V815.7zm0 5.687Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 830.554-.509.34-5.602-9.167.424-.34z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1253.428 815.7a7.32 7.32 0 0 0 5.178-2.122m19.438-2.461c.085 0 .085 0 .085.085s0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.085.085-.085.17-.085Zm0-2.631c.085 0 .085 0 .085.084 0 .085 0 .17-.085.17a.183.183 0 0 1-.17-.17c0-.084.085-.084.17-.084Zm-7.639 2.801.339.254m0-3.225-.34.254m10.866 2.038v-1.359m.254 1.019v-.679h-.17m.17.679h-.17m0-.764v.849m0-.849h-.085m.085.849h-.085m.255-.424h-4.753"
@@ -5852,7 +5852,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -6234,13 +6234,13 @@ export default function CCLMap() {
         d="M1253.428 801.186v2.97h-.594v-2.97zm0 2.971Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m1259.115 813.324-.509.254-5.602-9.082.424-.34zm-88.105 145.57v9.082h9.082v-9.082zm0 9.082Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M422.365 271.108H292.752v6.62h-5.687v48.552h5.687v14.175h-5.687v20.456h-4.838m10.525 125.963v14.175h-5.687v50.164h5.687v5.687h53.136v90.567h5.687v14.176h-5.687v176.636"
@@ -6248,7 +6248,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M346.142 799.658v4.244"
@@ -6256,7 +6256,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M345.888 838.279h1.612v57.04h98.631m10.016-.001h93.369"
@@ -6264,13 +6264,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M955.583 400.041v1.868h1.019v-1.868ZM894.724 379.5v.934h1.867v-.934zm0 .934Zm79.109 19.607v1.868h.933v-1.868Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M973.833 401.909h-.51v17.06h.51v-17.06m-17.231 0c.254 9.167 7.554 16.636 16.721 17.06m4.329 28.945h.594v-17.061h-.594v17.06m17.231.001c-.255-9.167-7.47-16.637-16.637-16.976"
@@ -6278,7 +6278,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M898.034 400.975h18.844m.933 0h18.42m1.019 0h18.333"
@@ -6286,13 +6286,13 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M976.718 447.914v1.867h.934v-1.867z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M994.883 448.847h6.79"
@@ -6300,13 +6300,13 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M994.883 447.914v1.867h-1.189v-1.867z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1004.56 385.187v.594h17.06v-.594h-17.06m0 17.316c9.166-.255 16.636-7.555 16.975-16.722"
@@ -6314,13 +6314,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1004.56 385.187v-.934h-1.868v.934zm0-.934Zm0 19.183v-.933h-1.868v.933zm0-.933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1003.625 403.436v13.157m0 .934v13.156"
@@ -6328,7 +6328,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1004.56 380.943v-.51h17.06v.51h-17.06"
@@ -6336,7 +6336,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1021.535 380.434c-.34-9.167-7.809-16.467-16.976-16.722"
@@ -6344,13 +6344,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1004.56 380.943v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1003.625 362.779v-6.96"
@@ -6358,13 +6358,13 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1004.56 362.779v.933h-1.868v-.933zm0 .933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M983.679 347.585h.594V330.61h-.594v16.976m17.231-.001c-.17-9.167-7.47-16.552-16.637-16.976"
@@ -6372,7 +6372,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M983.679 347.585h-1.613m1.613 2.377h-1.613m1.613-2.377v2.377m17.401-2.377h1.612m-1.612 2.377h1.612m-1.612-2.377v2.377"
@@ -6380,7 +6380,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 323.734v.594h-16.976v-.594h16.976m-16.976.594c.424 9.167 7.809 16.467 16.976 16.636"
@@ -6388,13 +6388,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 322.8v.934h1.867v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M894.724 319.49v-.51h-16.976v.51h16.976m0-17.231c-9.167.255-16.552 7.47-16.976 16.637"
@@ -6402,13 +6402,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 320.423v-.933h1.867v.933zm0-.933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M925.196 322.206v-.594h16.976v.594h-16.976m16.976-.594c-.424-9.167-7.809-16.467-16.976-16.722"
@@ -6416,13 +6416,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M925.196 323.14v-.934h-1.867v.934zm0-.934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M924.262 275.352v13.835m0 .934v13.92"
@@ -6430,21 +6430,21 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M292.752 501.049h.764m3.735 3.735c0-2.038-1.698-3.735-3.735-3.735"
         fill="none"
         stroke="#b3b3b3"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         stroke-dasharray="8.0044091471794,4.004416792095601"
       />
       <path
         d="M325.092 546.714h-10.865v8.573h10.865Z"
         fill="none"
         stroke="#b3b3b3"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
         stroke-dasharray="8.0044091471794,4.004416792095601"
       />
       <path
@@ -6453,13 +6453,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M584.656 339.352v.849H567.34v-.85zm0 .848Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M568.953 338.418h-3.48"
@@ -6467,7 +6467,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M776.486 340.2c.34 9.507 8.318 16.892 17.825 16.552h.254"
@@ -6475,13 +6475,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M776.486 339.352v.849h17.23v-.85zm0 .848Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M792.104 338.418h3.48m72.996-101.772V177.91m-2.376 58.736V177.91m0 58.736h2.377m58.907 0v-44.222m-2.292 44.222v-44.222m0 44.222h2.292"
@@ -6489,7 +6489,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M923.414 217.464c-9.337.254-16.637 7.978-16.467 17.23"
@@ -6497,19 +6497,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M923.414 217.464v17.23h.848v-17.23Zm-16.467 17.23v1.952h-.934v-1.952Zm18.249 0v1.952h-.934v-1.952Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M389.77 754.587v-7.046h6.706v7.046zm0-7.046Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M919.17 767.149h4.413m-4.413 14.005V767.15m4.413 10.524v-10.525M437.389 607.998v9.167m4.413-9.167v2.886m0 3.48v2.801m-4.413-9.167h4.413m-4.413 9.167h4.413m-4.413 35.141V769.78m4.413-117.474V766.3m-4.413 3.48h117.474m-113.061-3.48h113.061v3.48m22.663-3.48v3.48"
@@ -6517,13 +6517,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 340.964v1.019h1.867v-1.019zm0 1.019Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M375.51 562.672v.594h17.062v-.594H375.51"
@@ -6531,7 +6531,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M392.572 562.672h3.48m-3.48 17.316h3.48"
@@ -6539,7 +6539,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M375.51 563.266c.34 9.167 7.81 16.552 17.062 16.722"
@@ -6547,7 +6547,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M577.526 769.78h45.326m-45.326-3.48h20.456m4.414 0h20.456m132.328 3.48h11.375m-11.375-3.48h3.396m4.414 0h3.565m-11.375 3.48v-3.48m11.375 0v3.48"
@@ -6555,13 +6555,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 302.09v-.934h1.867v.933zm0-.934Zm30.472 3.819v-.934h-1.867v.934zm0-.934Zm-403.521 5.857v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1197.153 870.703c0-.594-.425-1.019-.934-1.019-.51 0-.934.425-.934 1.019 0 .51.425.934.934.934.51 0 .934-.425.934-.934Zm-20.626 92.774c0-.594-.425-1.018-.934-1.018-.594 0-1.018.424-1.018 1.018 0 .51.424.934 1.018.934.51 0 .934-.425.934-.934Zm-5.517-4.583 3.904 3.904m1.358 1.358 3.82 3.82m-9.082 0 3.904-3.82m1.358-1.358 3.82-3.904m68.838-62.557a.942.942 0 0 0-.934-.934.942.942 0 0 0-.934.934c0 .509.425.933.934.933.51 0 .934-.424.934-.933Zm-8.319-80.977c0-.593-.424-1.018-.933-1.018-.51 0-1.019.425-1.019 1.019 0 .51.51.934 1.019.934.51 0 .933-.425.933-.934Z"
@@ -6569,13 +6569,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M756.2 644.072v115.183h1.018V644.072Zm9.081 0v115.183h-1.018V644.072Zm169.167-6.281v-.934H773.175v.934zm0-.934ZM756.793 528.635V637.62h1.019V528.635Zm-335.532-255.15v-.934H294.62v.934zm0-.935Zm175.872 344.106v-.934H458.948v.934zm0-.934Zm83.268-277.643v-.934h-92.18v.934zm0-.934Zm0 .934v-.934h92.18v.934zm0-.934ZM444.519 194.037v46.09h1.018v-46.09Zm152.19 415.489v-.934H458.524v.934zm0-.934Z"
         fill="none"
         stroke="gray"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M372.37 645.176c.425 10.78 9.337 19.352 20.202 19.268"
@@ -6583,19 +6583,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M372.37 644.327v.849h20.202v-.85zm0 .849Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M518.025 445.792v-.934h-92.18v.934zm0-.934Z"
         fill="none"
         stroke="gray"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M566.067 491.712H462.598m135.384 4.414H462.598M622.852 766.3v3.48"
@@ -6603,13 +6603,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M510.895 270.09v-.934h-46.09v.933zm0-.934Z"
         fill="none"
         stroke="gray"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M925.196 376.444v-.594h16.976v.594h-16.976m16.976-.594c-.424-9.167-7.809-16.467-16.976-16.721"
@@ -6617,19 +6617,19 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M925.196 377.378v-.934h-1.867v.934zm0-.934Zm0-17.23v-.934h-1.867v.934zm0-.934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M925.196 379.245v-1.867h-1.867v1.867zm0-1.867Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M924.602 492.646h18.674"
@@ -6637,13 +6637,13 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M943.276 493.664v-1.952h.933v1.952Zm-19.693 0v-1.952h1.019v1.952Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M947.69 560.974h-3.48v-69.262m3.48 69.262v-69.262m-3.48 0h3.48M441.802 652.306h-4.413"
@@ -6651,13 +6651,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M623.87 767.913v1.867h-.933v-1.867Zm-68.073 0v1.867h-.934v-1.867Zm21.729 0v1.867h-.934v-1.867Zm368.211-206.939v.934h1.952v-.934zm0 .934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M437.389 532.455v-40.743m4.413 40.743v-40.743m-4.413 0h4.413m0 40.743h-4.413m354.8-36.329v1.952m0 17.231v11.543m3.395-11.543v11.543m-3.395-112.89h3.395"
@@ -6665,7 +6665,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M794.65 357.686v55.342"
@@ -6673,19 +6673,19 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M795.584 356.752v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M795.584 413.028v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M565.473 413.962h3.48"
@@ -6693,7 +6693,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M566.407 357.516v55.512"
@@ -6701,19 +6701,19 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M567.34 356.582v.934h-1.867v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M567.34 413.028v.934h-1.867v-.934zm0 .934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1008.21 866.034v18.844m-3.481-18.844v18.844m0-18.844h3.48m-3.48 18.844h3.48m.001 8.742v18.844m-3.481-18.844v18.844m0-18.844h3.48m-3.48 18.844h3.48"
@@ -6721,7 +6721,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M985.461 890.565c-.17 9.252 7.215 16.976 16.467 17.23"
@@ -6729,13 +6729,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1001.928 907.796v-17.231h.849v17.23z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M985.461 816.889c-.17 9.252 7.215 16.976 16.467 17.23"
@@ -6743,25 +6743,25 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1001.928 834.12v-17.231h.849v17.23ZM567.34 338.418v.934h-1.867v-.934zm0 .934Zm-45.665-47.703v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M343.256 448.508v1.867h-.933v-1.867Zm178.419-120.106v.934h-1.868v-.934zm0 .934Zm482.885 102.281v-.934h-1.868v.934zm0-.934Zm-27.842.934v-1.019h-1.952v1.019zm0-1.019ZM897.1 400.041v1.868h.934v-1.868Zm82.674-20.796v-1.867h-1.018v1.867zm0-1.867Zm24.786-22.493v.934h-1.868v-.934zm0 .934Zm-2.887 92.095v1.867h.934v-1.867Zm-76.477-172.562v-.934h-1.867v.934zm0-.934Zm-83.268-8.488v-1.952h-.933v1.952zm0-1.952Zm54.663 1.952v-1.952h-1.867v1.952zm0-1.952Zm-134.79-84.201v-.934h-1.952v.934zm0-.934Zm-160.593.934v-.934h-1.953v.934zm0-.934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M932.326 874.013v11.374h34.037v-11.374zm0 11.374Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M993.355 504.36h3.565m69.517 276.37v-3.565m-2.886 3.565v-3.565m60.435 3.565v-3.565M285.622 488.317v-21.9m1.443 20.457v-20.966"
@@ -6769,13 +6769,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 465.4v-.765h-23.087v.764Zm2.207 1.018v-1.019h-2.207v1.019Zm0-24.021v-.934h-2.207v.933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M280.02 442.397c-12.477-.085-22.663 9.76-23.087 22.238"
@@ -6783,13 +6783,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M282.227 433.993v1.868h-2.207v-1.868z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M287.065 360.911h.34"
@@ -6797,13 +6797,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 479.15v-.85h23.088v.85Zm-2.206.933v-.933h2.206v.933Zm0-23.936v-1.018h2.206v1.018Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1104.124 479.065c-.085-12.647-10.356-23.003-23.088-22.918"
@@ -6811,7 +6811,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 447.235v2.8"
@@ -6819,13 +6819,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 447.235v2.8h2.206v-2.8z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1073.652 361.166v-42.525m0-2.291v-38.621m-19.183-81.061v-4.244m0 4.244h2.97m21.391 164.498h-5.178M389.007 745.674h7.045m-50.164 11.035h37.941m5.178 0h6.96m.085-11.035v-81.23m-3.48 77.75v-77.75M282.227 465.908h4.838m875.202 318.132h62.811"
@@ -6833,7 +6833,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1163.285 784.974h60.86m-60.86 10.864h60.86"
@@ -6841,7 +6841,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M985.461 813.409v3.48m17.316-3.48v3.48m-17.316 70.196v3.48m17.316-3.48v3.48"
@@ -6849,7 +6849,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1081.036 450.036v4.159m-2.206-4.159v4.159"
@@ -6857,13 +6857,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1078.83 455.129v-.934h2.206v.934z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M343.256 450.375h55.512"
@@ -6871,7 +6871,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M317.877 436.625h-35.65m39.13-3.48h-39.13v3.48"
@@ -6879,7 +6879,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M281.124 435.86v4.67"
@@ -6887,13 +6887,13 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M282.227 441.463v-.934h-2.207v.934z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M280.02 435.86v4.67m2.207-4.67v4.67"
@@ -6901,7 +6901,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M317.877 450.375v-13.75m3.48 10.27v-13.75m20.966 17.23h-24.446"
@@ -6909,7 +6909,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M280.02 360.911v.934h2.207v-.934h-2.207"
@@ -6917,7 +6917,7 @@ export default function CCLMap() {
         stroke="teal"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M465.823 756.539c0-.255-.17-.51-.509-.51m-2.461 4.329c0-.17-.085-.254-.255-.254-.085 0-.17.085-.17.254 0 .085.085.255.17.255.17 0 .255-.17.255-.255Z"
@@ -6925,7 +6925,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M463.107 760.358c0-.254-.17-.509-.509-.509-.255 0-.424.255-.424.51 0 .254.17.424.424.424.34 0 .51-.17.51-.425Zm2.207 4.244c.34 0 .51-.17.51-.424m-.001 1.188a.76.76 0 0 0 .764-.764m-.764-8.063v7.639"
@@ -6933,7 +6933,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M451.648 764.602v-8.742l.17-.34.17-.085.17-.085h13.835l.34.17.254.51v8.572"
@@ -6941,7 +6941,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M459.882 756.03c-.255 0-.425.254-.425.509m-.763 0c0-.255-.17-.51-.425-.51m-5.432.001c-.255 0-.51.254-.51.509m.51-.509h5.432m1.188 8.148c0 .255.17.424.425.424m-1.612 0c.254 0 .424-.17.424-.424m-2.886-3.904c0-.085-.17-.17-.255-.17-.17 0-.255.085-.255.17 0 .17.085.254.255.254.085 0 .255-.085.255-.255Z"
@@ -6949,7 +6949,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M455.977 760.274c0-.255-.17-.425-.424-.425-.255 0-.51.17-.51.424 0 .34.255.51.51.51s.424-.17.424-.51Zm-3.649 3.904c0 .255.254.424.509.424m-1.189 0c0 .425.255.764.68.764m5.942-.764h-5.433m-.509-.424v-7.64m7.129.001v7.639m-.763 0v-7.64m7.129 8.828h-13.495m7.554-9.336h5.432m0 8.572h-5.432m-83.607 37.263c0-.255-.255-.51-.51-.51m-2.461 4.33c0-.17-.085-.255-.255-.255-.085 0-.254.085-.254.255 0 .084.17.254.254.254.17 0 .255-.17.255-.254Z"
@@ -6957,7 +6957,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M373.559 805.685c0-.255-.255-.51-.51-.51-.254 0-.424.255-.424.51 0 .254.17.424.424.424.255 0 .51-.17.51-.424Zm2.206 4.244c.255 0 .51-.17.51-.425m0 1.188c.424 0 .679-.34.679-.763m-.679-8.064v7.64"
@@ -6965,7 +6965,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M362.015 809.929v-8.573l.254-.51.17-.085.17-.084h13.835l.17.084.17.085.17.34v8.743"
@@ -6973,7 +6973,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M370.333 801.356c-.255 0-.424.254-.424.509m-.764 0c0-.255-.17-.51-.425-.51m-5.432.001c-.34 0-.51.254-.51.509m.51-.509h5.432m1.189 8.148c0 .255.17.425.424.425m-1.613 0c.255 0 .425-.17.425-.425m-2.971-3.904a.183.183 0 0 0-.17-.17c-.17 0-.254.085-.254.17 0 .17.084.254.254.254.085 0 .17-.085.17-.254Z"
@@ -6981,7 +6981,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M366.429 805.6c0-.255-.17-.425-.425-.425-.34 0-.51.17-.51.425 0 .34.17.509.51.509.255 0 .425-.17.425-.51Zm-3.65 3.904c0 .255.17.425.509.425m-1.273 0c0 .424.34.763.764.763m5.941-.763h-5.432m-.509-.425v-7.64m7.13.001v7.64m-.764-.001v-7.64m7.13 8.828h-13.496m7.554-9.336h5.432m0 8.573h-5.432m618.184-602.142c-.255 0-.51.17-.51.425m4.329 2.461c-.17 0-.254.17-.254.255 0 .17.085.254.254.254.085 0 .17-.084.17-.254 0-.085-.085-.255-.17-.255Z"
@@ -6989,7 +6989,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M992.336 210.503c-.34 0-.509.17-.509.425 0 .254.17.509.51.509.254 0 .424-.255.424-.51 0-.254-.17-.424-.425-.424Zm4.244-2.291c0-.255-.17-.425-.509-.425m1.273 0a.76.76 0 0 0-.764-.764m-8.063.764h7.554"
@@ -6997,7 +6997,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M996.58 221.962h-8.742l-.34-.17-.17-.34v-13.92l.085-.17.255-.254.17-.085h8.742"
@@ -7005,7 +7005,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M988.008 213.644c0 .255.254.51.509.51m0 .678c-.255 0-.51.255-.51.51m.001 5.432c0 .255.254.51.509.51m-.509-.51v-5.432m8.063-1.189c.34 0 .51-.254.51-.51m-.001 1.699c0-.255-.17-.51-.509-.51m-3.819 2.971c-.085 0-.255.085-.255.255 0 .17.17.254.255.254.17 0 .254-.085.254-.254 0-.17-.085-.255-.254-.255Z"
@@ -7013,7 +7013,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M992.252 217.548c-.255 0-.425.255-.425.51 0 .254.17.509.425.509.254 0 .509-.255.509-.51 0-.254-.255-.509-.51-.509Zm3.819 3.735c.34 0 .51-.255.51-.51m-.001 1.189c.425 0 .764-.34.764-.679m-.764-5.941v5.432m-.509.509h-7.554m0-7.13h7.554m0 .679h-7.554m8.827-7.045v13.496m-9.336-7.639v-5.432m8.572 0v5.432"
@@ -7021,7 +7021,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M992.336 237.835v-45.411m-151.341 71.554h-2.971"
@@ -7029,13 +7029,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M761.801 286.302v-.934h-1.952v.934zm0-.934Zm0-17.231v-1.018h-1.952v1.018zm0-1.018Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M928.506 271.108h139.798m0 6.621v-6.621m5.348 6.621h-5.348"
@@ -7043,7 +7043,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M343.256 448.508h55.512m579.988-69.262h-53.56m-405.389-50.844v-17.57m1.868 0v17.57m79.533-148.625v105.59m-1.953.001V179.777m160.595 0v87.342m1.951 0v-87.342"
@@ -7051,13 +7051,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M869.515 236.646v-1.952h-.934v1.952zm0-1.952Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M869.515 234.694h36.498m0 1.952h-36.498m-27.587 27.332h52.796m0 1.952h-52.796m54.663 0v35.226m-1.867-35.226v35.226m-99.14 56.53v55.342m-1.868-55.342v55.342m131.48-137.676v28.69m-1.867-28.69v28.69m1.867 54.238v-31.83m-1.867 31.83v-31.83"
@@ -7065,13 +7065,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M925.196 326.45v-1.019h-1.867v1.019zm0-1.019Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M896.591 341.983v34.207"
@@ -7079,13 +7079,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M894.724 376.19v.934h1.867v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M894.724 376.19v-34.207m30.472 35.395h53.56M439.34 533.388V588.9m458.694-188.859h57.55m-57.55 1.868h57.55m21.134 0v28.69m-1.952-.001v-28.69m29.794 28.775v-27.247m-1.868 0v27.247m-7.809 17.231h6.79m-6.79 1.867h6.79m-77.071 41.931h18.674m-18.674 1.952h18.674m4.414 68.244v55.427m-1.953 0v-55.427M785.738 767.913H918.15m.001 1.867H785.738m-49.74-1.867H623.87m0 1.867h112.128m-180.201-1.867h20.795m-20.795 1.867h20.795M439.34 651.372v-12.223m-1.951.001v12.222m5.431-159.66h18.844m0 1.952h-18.843m561.739-130.885v-6.96m-1.868 0v6.96M567.34 413.028v-55.512m-1.867 0v55.512M251.67 472.36V217.632M437.389 588.9v-55.512M247.85 472.36V219.245m32.17 223.152v23.002m0-200.402v-74.27m2.801 74.27v-74.27m-2.801-.001h2.801m798.215 297.93h8.573m25.464 5.263v-46.175h-34.037m34.037 0c17.316-14.175 34.547-28.265 45.581-45.411 22.409-34.801 19.013-81.74 16.637-130.376-1.868-38.196-3.14-77.411 15.109-104.658"
@@ -7093,7 +7093,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1115.073 492.985c19.693-24.7 21.39-26.143 23.173-27.586 1.782-1.443 3.565-2.886 5.347-4.414 1.783-1.443 3.565-2.97 5.348-4.498 1.782-1.528 3.565-3.14 5.347-4.754 1.783-1.612 3.565-3.225 5.348-4.923 1.782-1.697 3.48-3.395 5.262-5.093 1.698-1.782 3.48-3.565 5.178-5.432 1.358-1.528 2.716-3.056 3.99-4.668 1.357-1.528 2.63-3.14 3.989-4.838 1.273-1.613 2.461-3.31 3.734-5.008.255-.425.595-.85.85-1.274.593-.848 1.103-1.697 1.697-2.546.085-.17.255-.34.34-.51.084-.17.254-.339.339-.509.17-.424.424-.764.679-1.103l1.273-2.037c.764-1.443 1.613-2.886 2.377-4.244 1.018-1.952 2.037-3.905 2.886-5.857.933-1.952 1.867-3.904 2.631-5.942.849-1.952 1.613-3.989 2.292-5.941.764-2.037 1.443-3.99 2.037-6.027.594-2.037 1.188-4.074 1.698-6.111.594-2.037 1.018-3.99 1.527-6.027.425-2.037.85-4.074 1.189-6.111.424-2.037.764-4.074 1.103-6.111.255-2.037.51-4.075.764-6.197.255-2.037.51-4.074.68-6.111.254-2.886.508-5.772.678-8.658.17-2.97.255-5.857.34-8.742.085-2.886.17-5.857.17-8.743v-8.658c-.085-2.886-.085-5.772-.17-8.658-.085-2.886-.17-5.772-.34-8.658-.085-2.885-.254-5.687-.34-8.572-.17-2.886-.254-5.687-.424-8.573-.17-2.801-.254-5.687-.424-8.488 0-.595-.085-1.189-.085-1.783 0-.594-.085-1.188-.085-1.782-.085-1.189-.085-2.377-.17-3.565-.085-2.377-.254-4.754-.34-7.045-.084-2.377-.169-4.669-.169-6.96-.085-2.292-.085-4.584-.17-6.791v-6.62c0-2.208.085-4.33.17-6.452 0-2.122.17-4.159.255-6.196.085-2.037.254-3.99.424-5.942.255-1.952.424-3.82.68-5.687.254-1.782.508-3.565.848-5.262.255-1.443.594-2.801.849-4.16.34-1.357.679-2.63 1.018-3.904.34-1.188.68-2.461 1.104-3.565.34-1.188.764-2.291 1.188-3.395.34-.934.764-1.782 1.104-2.631.424-.849.763-1.613 1.188-2.377.424-.849.849-1.613 1.273-2.292.424-.679.764-1.358 10.44-17.655"
@@ -7101,7 +7101,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1057.44 196.668v66.886m-71.13 0h71.13m-73.422 0h-55.512v-3.31h-14.175m0 14.174v-14.175m0 14.175h14.175m0-3.31v3.31"
@@ -7109,7 +7109,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1192.4 167.3h32.763"
@@ -7117,7 +7117,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1106.33 900.58h17.401m0 5.178h42.695m61.878-101.262v-23.002m-3.226 23.002V784.04"
@@ -7125,7 +7125,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1224.145 795.838v-10.864"
@@ -7133,7 +7133,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1240.442 798.724v2.462m41.591 0h-41.591m41.591-2.462h-41.591m-137.506 110.515h63.49m-42.695-3.481h46.175m-46.175-5.178v5.178"
@@ -7141,13 +7141,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1169.906 900.326v5.348h-.594v-5.348zm0 5.348Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1154.288 884.793c.255 8.318 7.13 14.939 15.533 14.939"
@@ -7155,13 +7155,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1169.821 884.793v-.594h-15.533v.594z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1106.33 883.095v17.486M601.208 289.782h-4.754m-17.315 0h-57.464m79.533-3.48h-4.754m-17.315 0h-57.464m79.533 0v3.48"
@@ -7169,13 +7169,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M601.208 286.302v-.934h-1.953v.934zm0-.934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M579.139 289.782v-3.48m17.315 3.48v-3.48M342.323 450.375v-3.48h-20.966"
@@ -7183,7 +7183,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1089.61 488.656v6.197"
@@ -7191,7 +7191,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1273.97 789.727c0-.424-.34-.764-.85-.764a.76.76 0 0 0-.763.764c0 .424.34.764.764.764.509 0 .848-.34.848-.764Zm7.808-8.657v17.315"
@@ -7199,7 +7199,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1264.548 795.414h.764l.17.085c.47.395-.255.883.679 1.782l.17.17.254.085.255.085h12.901l.255-.085.17-.085.254-.17.17-.17.085-.254.17-.17v-.254l.085-.255V783.53l-.085-.255v-.255l-.17-.17-.085-.254-.17-.17-.254-.085-.17-.17h-.255l-.254-.084h-12.393l-.254.085h-.255l-.255.17-.17.084-.17.17-.169.255-.085.17-.085.254v.594l-.085.085-.085.17h-.17l-.169.085h-.594m0 14.176v-17.316m-12.478 3.141c.085 6.28 5.263 11.374 11.629 11.204h.849"
@@ -7207,7 +7207,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path d="M1252.07 784.125v.17h12.478v-.17z" fill="#fff" />
       <path
@@ -7216,7 +7216,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1264.548 781.494v-.764"
@@ -7224,13 +7224,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1228.813 787.605v11.12h.594v-11.12zm0 11.119Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1240.357 798.724c-.085-6.196-5.093-11.204-11.29-11.119h-.254M1114.31 891.838c0-.424.424-.849.848-.849.425 0 .764.425.764.85a.76.76 0 0 1-.764.763c-.424 0-.848-.34-.848-.764Zm-7.81-8.658v17.316"
@@ -7238,7 +7238,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1123.731 897.44h-.594l-.34.17-.084.085-.085.085v.764l-.085.254-.085.17-.17.255-.17.17-.17.084-.254.17h-.255l-.254.085h-12.393l-.254-.085h-.17l-.255-.17-.17-.085-.17-.17-.17-.254-.084-.17-.085-.254v-13.157l.085-.254.085-.17.17-.255.34-.34.254-.084.17-.085h12.901l.51.17.17.17.17.17.169.254.085.17.085.254v.594l.17.17.339.17h.594m0 14.175V883.18m12.478 3.14c-.085 6.282-5.263 11.29-11.629 11.205-.255 0-.51 0-.849-.085"
@@ -7246,7 +7246,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path d="M1123.731 886.151v.255h12.478v-.255z" fill="#fff" />
       <path
@@ -7255,13 +7255,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="m761.037 79.278-30.302 30.303 12.987 12.392 29.623-30.896Z"
         fill="none"
         stroke="#b3b3b3"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="m730.056 108.477 19.862-20.032m-19.183 20.711 19.862-20.032m-19.862 20.032-.679-.679m19.862-20.032.68.68"
@@ -7269,13 +7269,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M439.34 607.064v.934h-1.951v-.934zm0 .934Zm0 9.167v.934h-1.951v-.934zm0 .934Zm356.244-279.681v.934h-1.868v-.934zm0 .934Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M396.052 798.13v16.976m-3.48-16.976v13.496m3.48-13.496h-3.48m832.506 6.366h3.226"
@@ -7283,13 +7283,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1141.386 900.75h-13.24Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1128.145 905.589h13.241m-13.241-1.529h13.241m-13.241-.169h13.241m-13.241-1.528h13.241m-13.241-.17h13.241"
@@ -7297,13 +7297,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1141.386 905.589v-6.536h-13.24v6.536"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1128.145 900.496h13.241"
@@ -7311,7 +7311,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M446.131 896.761v-8.488h10.016v8.488"
@@ -7319,13 +7319,13 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1222.447 969.08v-7.555h-37.687v7.554"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M993.525 539.924h-.934m0 241.57v-241.57m0 241.57h166.196M993.355 504.36h-.764v-3.82m271.957 280.954h-36.244"
@@ -7333,7 +7333,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M568.699 330.949h223.914m-223.914-.339h223.914m-223.914.339v-.34"
@@ -7341,13 +7341,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M565.813 334.683h-.425v-4.074h3.056v.424"
         fill="none"
         stroke="black"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M792.613 330.61v.339M345.888 803.902h12.477m.764.764a.76.76 0 0 0-.764-.764m.764.764v6.96m-.339-5.686v5.686m0-5.686h.339m-12.817 5.347h12.477m-12.477-5.347v5.347m0-5.347h-.424m46.684-2.038h-12.478a.76.76 0 0 0-.764.764v6.96m.34-5.686v5.686m0-5.686h-.34m12.902 5.347H379.67m12.562-5.347v5.347m0-5.347h.34"
@@ -7355,7 +7355,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1073.652 360.911h-.51"
@@ -7363,13 +7363,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1251.052 783.53h-13.242Z"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1237.81 788.369h13.242m-13.242-1.443h13.242m-13.242-.255h13.242m-13.242-1.443h13.242m-13.242-.254h13.242"
@@ -7377,13 +7377,13 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1251.052 788.369v-6.536h-13.242v6.536"
         fill="none"
         stroke="olive"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1237.81 783.276h13.242m-75.374 59.077c0 1.613 2.122 2.886 4.668 2.886 2.547 0 4.669-1.273 4.669-2.886 0-1.613-2.122-2.971-4.669-2.971-2.546 0-4.668 1.358-4.668 2.97Zm-33.782-2.801c0-.68-.51-1.104-1.104-1.104-.679 0-1.188.425-1.188 1.104 0 .594.51 1.103 1.188 1.103.594 0 1.104-.51 1.104-1.103Zm18.674 2.801c0 1.613 2.121 2.886 4.668 2.886 2.546 0 4.668-1.273 4.668-2.886 0-1.613-2.122-2.971-4.668-2.971-2.547 0-4.669 1.358-4.669 2.97Zm-15.11 0c0 1.613 2.123 2.886 4.669 2.886 2.546 0 4.668-1.273 4.668-2.886 0-1.613-2.122-2.971-4.668-2.971-2.546 0-4.668 1.358-4.668 2.97Zm22.833-54.663c0-.68-.509-1.188-1.103-1.188s-1.103.509-1.103 1.188c0 .594.509 1.103 1.103 1.103s1.103-.509 1.103-1.103Z"
@@ -7391,7 +7391,7 @@ export default function CCLMap() {
         stroke="olive"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M443.076 241.74v18.843m-3.481-18.843v18.843m0-18.843h3.48"
@@ -7399,7 +7399,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M469.049 125.538H298.694m168.148-4.753H303.447m-71.469 50.165v-4.84m.934 4.84v-5.773"
@@ -7407,7 +7407,7 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M975.445 157.538c11.29 0 20.456-8.997 20.796-20.202m-743.128-.424c-11.204 0-20.456 8.912-20.71 20.202"
@@ -7415,7 +7415,7 @@ export default function CCLMap() {
         stroke="#630"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M255.15 178.588h1.953V167.13"
@@ -7423,13 +7423,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M256 189.029v-3.565h-3.65v3.565zm0-3.565Z"
         fill="none"
         stroke="#b3b3b3"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M255.15 178.588v6.876m-1.273-6.876v6.876m-.085 3.565v1.358m44.987-1.358h-44.223m44.223 1.358h-44.987m44.902-64.849V94.472m4.753 26.313V94.472M244.2 113.994h9.762m-9.762 11.544h8.913m-8.913 0v-11.544m7.725 64.594V167.13m-20.795 4.668v-4.669m20.795 11.459h1.952m719.446-21.05v31.49m1.358-31.49v31.49m0-83.607v30.982m-1.273-32.255v32.255M253.962 94.472v42.44m1.273-42.44v42.44m-22.323 34.038h-.934M598.938 247.634l22.239-26.992M466.842 120.785l20.796-25.21m3.65 2.971-3.65-2.97M251.925 167.13h1.188m2.887 0h1.103m717.578-61.709h87.597m-88.87-1.273h87.512m1.358 1.273V87.172m-1.358 16.976V87.172m-829.79 84.626v25.38m-3.82-25.38v26.907m24.36 18.928-20.54-20.456m16.72 22.069-20.54-20.541m0-26.907h3.82"
@@ -7437,13 +7437,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M795.244 334.683h.425v-4.074h-3.141v.424"
         fill="none"
         stroke="black"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M1033.673 491.118v-3.82m14.175 0h-14.175m14.175 3.82v-3.82"
@@ -7451,19 +7451,19 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M888.188 236.646v-1.952h-.933v1.952zm0-1.952Zm-28.18 31.236v-1.952h-.934v1.952zm0-1.952Zm34.716 20.032v-.934h1.867v.934zm0-.934Zm30.472 7.045v-.934h-1.867v.934zm0-.934Zm-30.472 69.433v.933h1.867v-.933zm0 .933Zm30.472-16.721v-.934h-1.867v.934zm0-.934Zm18.164 37.347v-1.867h-.933v1.867zm0-1.867Zm17.656 1.867v-1.867h-.934v1.867zm0-1.867Zm-44.138 22.663v1.868h.933v-1.868Zm19.352 0v1.868h1.02v-1.868ZM877.833 265.93v-1.952h-.934v1.952zm0-1.952Zm98.885 152.785v-.934h-1.952v.934zm0-.934Zm27.842 1.698v-.934h-1.868v.934zm0-.934Z"
         fill="none"
         stroke="teal"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M253.113 158.047v-.933h-20.71v.933zm0-.933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M253.962 136.912h1.273m-1.273 30.218v-9.083m1.273 9.083v-9.083m-1.273 0h1.273"
@@ -7471,13 +7471,13 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M975.445 137.336v-.933h20.796v.933zm0-.933Z"
         fill="none"
         stroke="#630"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M974.681 136.403h-1.273m1.273 21.135h-1.358"
@@ -7485,19 +7485,19 @@ export default function CCLMap() {
         stroke="#b3b3b3"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M441.548 331.458v3.82h-3.82v-3.82zm0 3.819Zm2.631-160.254v2.292h-2.292v-2.292zm0 2.292Zm119.851-2.292v2.292h-2.377v-2.292zm0 2.292Z"
         fill="none"
         stroke="black"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <path
         d="M440.784 332.137v2.377h-2.377v-2.377zm0 2.377ZM602.141 174.26v3.819h-3.82v-3.82zm0 3.819Zm160.594-3.819v3.819h-3.82v-3.82zm0 3.819Zm36.668-3.056v2.292h-2.376v-2.292zm0 2.292Zm119.767-2.292v2.292h-2.377v-2.292zm0 2.292Zm142.599 12.223v2.377h-2.377v-2.377zm0 2.377Zm-670.046-2.377v2.377h-2.377v-2.377zm0 2.377Zm-90.058-2.377v2.377h-2.377v-2.377zm0 2.377Zm300.476 139.543v3.82h-3.82v-3.82zm0 3.819Zm160.594-3.819v3.82h-3.82v-3.82zm0 3.819Zm160.594-3.819v3.82h-3.82v-3.82zm0 3.819Zm0 156.775v3.82h-3.82v-3.82zm0 3.819Zm-160.594-3.819v3.82h-3.82v-3.82zm0 3.819Zm-160.594-3.819v3.82h-3.82v-3.82zm0 3.819Zm-160.593-3.819v3.82h-3.82v-3.82zm0 3.819Zm0 156.774v3.82h-3.82v-3.82zm0 3.82Zm160.593-3.82v3.82h-3.82v-3.82zm0 3.82Zm160.594-3.82v3.82h-3.82v-3.82zm0 3.82Zm160.594-3.82v3.82h-3.82v-3.82zm0 3.82Zm160.593-3.82v3.82h-3.82v-3.82zm0 3.82ZM923.329 777.08v3.82h-3.82v-3.82zm0 3.82Zm-160.594 32.339v3.82h-3.82v-3.82zm0 3.819Zm-160.594-3.819v3.82h-3.82v-3.82zm0 3.819Zm-160.593-3.819v3.82h-3.82v-3.82zm0 3.819Zm481.017 70.536v2.377h-2.377v-2.377zm0 2.376Zm321.442-112.466v2.886h-2.801v-2.886zm0 2.886Zm-117.135-2.886v2.886h-2.886v-2.886zm0 2.886Zm-60.435-2.886v2.886h-2.886v-2.886zm0 2.886ZM280.445 171.289v2.886h-2.886v-2.886zm0 2.886Zm802.968-2.886v2.886h-2.801v-2.886zm0 2.886Zm-503.341-23.088-2.291-.594.509-2.292 2.377.594zm200.828 0 2.376-.594-.594-2.292-2.292.594Zm-54.748-70.366-2.122-1.018 1.018-2.122 2.122 1.018zm-91.247 0 2.122-1.018-1.018-2.122-2.122 1.018z"
         fill="none"
         stroke="black"
-        stroke-miterlimit="2"
+        strokeMiterlimit="2"
       />
       <text
         xmlSpace="preserve"
@@ -8706,7 +8706,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M1360.378 956.177h18.843V980.2h18.928v-24.022h18.929V980.2h37.772v-24.022h94.471v12.053h-188.943v-12.053"
@@ -8714,7 +8714,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"
@@ -8738,7 +8738,7 @@ export default function CCLMap() {
         stroke="black"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <text
         xmlSpace="preserve"

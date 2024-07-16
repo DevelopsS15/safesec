@@ -6,6 +6,7 @@ import {
   ConvertCourseScheduleTimeToMinutes,
   ConvertTimeToMinutes,
   GenerateEventDisplayWithDetails,
+  GetDateFromDayOfWeek,
   GetYPositionInTimetable,
   TimetableBuilderEventElementOptions,
   ViewDateObject,
@@ -121,18 +122,9 @@ export default function TimetableWeekAndDayView(props: {
     number | null
   >(null);
 
-  const GetDateFromDayOfWeek = React.useCallback(
-    (dayOfWeek: number) => {
-      const viewDateLocal = new Date(currentViewDate);
-      const firstDay = viewDateLocal.getDate() - viewDateLocal.getDay();
-      return new Date(viewDateLocal.setDate(firstDay + dayOfWeek));
-    },
-    [currentViewDate],
-  );
-
   const isUserCurrentDay = (dayOfWeek: number): boolean => {
     const dayOfWeekDate = isWeekView
-      ? GetDateFromDayOfWeek(dayOfWeek)
+      ? GetDateFromDayOfWeek(currentViewDate, dayOfWeek)
       : currentViewDate;
     return AreDatesTheSame(currentUserDate, dayOfWeekDate);
   };
@@ -158,7 +150,7 @@ export default function TimetableWeekAndDayView(props: {
   const allDayEventsForTimetableEvent = React.useMemo(() => {
     if (!isViewingCurrentDayDialog) return [];
     const currentDayForDialogDate = isViewingCurrentDayDialog
-      ? GetDateFromDayOfWeek(currentDayForDialog)
+      ? GetDateFromDayOfWeek(currentViewDate, currentDayForDialog)
       : new Date();
     return allEventsForTimetableEvent
       .filter((event) =>
@@ -242,7 +234,10 @@ export default function TimetableWeekAndDayView(props: {
           })}
         >
           {typeof currentDayForDialog === `number`
-            ? GetDateFromDayOfWeek(currentDayForDialog).toDateString()
+            ? GetDateFromDayOfWeek(
+                currentViewDate,
+                currentDayForDialog,
+              ).toDateString()
             : "Timetable Builder"}
         </div>
         <div>
@@ -286,6 +281,7 @@ export default function TimetableWeekAndDayView(props: {
                 <TimetableWeekDayHead
                   key={index}
                   dayOfWeek={index}
+                  currentViewDate={currentViewDate}
                   GetDateFromDayOfWeek={GetDateFromDayOfWeek}
                   isUserCurrentDay={isUserCurrentDay}
                   ref={index === 0 ? weekViewFirstDayOfWeekRef : undefined}
@@ -295,6 +291,7 @@ export default function TimetableWeekAndDayView(props: {
           ) : (
             <TimetableWeekDayHead
               dayOfWeek={currentViewDate.getDay()}
+              currentViewDate={currentViewDate}
               GetDateFromDayOfWeek={GetDateFromDayOfWeek}
               isUserCurrentDay={isUserCurrentDay}
               ref={dayViewFirstDayOfWeekColumnReference}
@@ -363,8 +360,9 @@ export default function TimetableWeekAndDayView(props: {
 interface TimetableWeekDayHeadProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   dayOfWeek: number;
+  currentViewDate: Date;
   isUserCurrentDay: (dayOfWeek: number) => boolean;
-  GetDateFromDayOfWeek: (value: number) => Date;
+  GetDateFromDayOfWeek: (currentViewDate: Date, value: number) => Date;
   setCurrentDayForDialog: React.Dispatch<React.SetStateAction<number | null>>;
 }
 
@@ -376,6 +374,7 @@ const TimetableWeekDayHead = React.forwardRef<
     {
       className,
       dayOfWeek,
+      currentViewDate,
       GetDateFromDayOfWeek,
       isUserCurrentDay,
       setCurrentDayForDialog,
@@ -384,13 +383,19 @@ const TimetableWeekDayHead = React.forwardRef<
     ref,
   ) => {
     const getMonthOfDay = (dayOfWeek: number) =>
-      GetDateFromDayOfWeek(dayOfWeek).toLocaleDateString("en-US", {
-        month: "short",
-      });
+      GetDateFromDayOfWeek(currentViewDate, dayOfWeek).toLocaleDateString(
+        "en-US",
+        {
+          month: "short",
+        },
+      );
     const getDateOfDay = (dayOfWeek: number) =>
-      GetDateFromDayOfWeek(dayOfWeek).toLocaleDateString("en-US", {
-        day: "numeric",
-      });
+      GetDateFromDayOfWeek(currentViewDate, dayOfWeek).toLocaleDateString(
+        "en-US",
+        {
+          day: "numeric",
+        },
+      );
 
     const dayOfWeekThreeCharacters = daysOfWeekThreeCharacters[dayOfWeek];
     return (
@@ -398,6 +403,7 @@ const TimetableWeekDayHead = React.forwardRef<
         {...props}
         ref={ref}
         aria-label={`See all the events that occur on ${GetDateFromDayOfWeek(
+          currentViewDate,
           dayOfWeek,
         ).toLocaleDateString("en-US", {
           month: "long",
@@ -469,7 +475,7 @@ function TimetableTimeIndicator(props: {
       aria-label="The current time indicator"
       className={cn(
         TimetableWeekViewCSS.timetableIndicator,
-        "flex items-center",
+        "flex items-center z-[100]",
       )}
       style={{
         top: positionOfIndicator - 4,

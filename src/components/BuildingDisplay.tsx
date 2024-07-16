@@ -69,7 +69,9 @@ export default function BuildingDisplay({
           // fillOpacity={selectedBuilding === building ? 0.75 : 1}
           className={cn(
             "fill-black transition-all duration-100",
-            selectedBuilding === building ? "opacity-20" : "opacity-0 hover:opacity-10",
+            selectedBuilding === building
+              ? "opacity-20"
+              : "opacity-0 hover:opacity-10",
           )}
           d={svgPath}
         />
@@ -84,7 +86,7 @@ export default function BuildingDisplay({
               <Skeleton className="h-3 w-full" />
               <Skeleton className="h-3 w-full" />
             </div>
-          ) : occupantsData ? (
+          ) : occupantsData && occupantsData[building] ? (
             <>
               <div className="grid grid-cols-2 bg-slate-100/75 px-2 font-bold">
                 <div>Floor</div>

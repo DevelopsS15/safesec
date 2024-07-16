@@ -5,7 +5,12 @@ import {
 } from "@radix-ui/react-dialog";
 import React, { type PropsWithChildren, type ReactNode } from "react";
 import { cn } from "~/lib/utils";
-import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "../ui/dialog";
 
 export interface CustomDialogProps extends DialogProps {
   trigger?: ReactNode;
@@ -29,10 +34,11 @@ const BasicDialog = ({
       <DialogContent
         {...props.pt?.content}
         className={cn(
-          "max-h-[90%] overflow-y-auto",
+          "z-[300] max-h-[90%] overflow-y-auto",
           props?.pt?.content?.className,
         )}
       >
+        <DialogTitle></DialogTitle>
         {children}
       </DialogContent>
     </Dialog>

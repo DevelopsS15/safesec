@@ -1,0 +1,120 @@
+.timetableDaysOfWeekHeading {
+  top: 64px;
+  left: 0px;
+  z-index: 400;
+}
+
+.timetableTimeRangeCell {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.timetableIndicator {
+  position: absolute;
+  z-index: 100;
+}
+
+.timetableIndicatorArrow {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left-style: solid;
+}
+
+.course {
+  z-index: 50;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  display: grid;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.weekViewDateSeparator {
+  display: none;
+}
+
+.courseTime {
+  font-size: 0.8em;
+}
+
+.viewDateDayOfWeekButton {
+  background: none;
+  padding: 0;
+  width: 100%;
+  font-size: 1em;
+  height: 100%;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.timetableWeekDayViewWrapper {
+  --timeRangeColumnWidth: 100px;
+}
+/*  */
+.timetableWeekView .timetableRow {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.timetableDayView .timetableRow {
+  grid-template-columns: var(--timeRangeColumnWidth) 1fr;
+}
+/*  */
+
+@media (max-width: 800px) {
+  .timetableWeekDayViewWrapper {
+    --timeRangeColumnWidth: 50px;
+  }
+  .timetableWeekView .timetableRow {
+    grid-template-columns: var(--timeRangeColumnWidth) repeat(7, minmax(0, 1fr));
+  }
+  .timetableDayView .timetableRow {
+    grid-template-columns: var(--timeRangeColumnWidth) 1fr;
+  }
+  .timetableRow > div:nth-child(1) {
+    font-size: 12px;
+  }
+  .timetableTimeRangeCell {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: smaller;
+  }
+  .viewDateDayOfWeekButton span {
+    display: none;
+    line-height: normal;
+  }
+  .timetableDaysOfWeekHeading {
+    top: 96px;
+  }
+}
+
+@media (max-width: 600px) {
+  .viewDateDayOfWeekButton {
+    padding: 3px;
+    font-size: x-small;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .course {
+    padding: 3px;
+    font-size: 0.8em;
+  }
+  .courseTime {
+    font-size: 0.6em;
+  }
+  .weekViewDateSeparator {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .course {
+    padding: 0px;
+    font-size: 0.6em;
+  }
+  .courseTime {
+    font-size: 0.8em;
+  }
+}

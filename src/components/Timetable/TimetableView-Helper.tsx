@@ -125,6 +125,28 @@ export function AreDatesTheSame(date1: Date, date2: Date) {
   );
 }
 
+export const GetDateFromDayOfWeek = (
+  currentViewDate: Date,
+  dayOfWeek: number,
+) => {
+  const viewDateLocal = new Date(currentViewDate);
+  const firstDay = viewDateLocal.getDate() - viewDateLocal.getDay();
+  return new Date(viewDateLocal.setDate(firstDay + dayOfWeek));
+};
+
+export const GetViewDateObject = (
+  year: number,
+  month: number,
+  day: number,
+): ViewDateObject => ({
+  year,
+  month,
+  day,
+});
+
+export const GetViewDateObjectFromDate = (date: Date): ViewDateObject =>
+  GetViewDateObject(date.getFullYear(), date.getMonth(), date.getDate());
+
 export const ConvertCourseScheduleTimeToTimeObject = (
   time: Nullable<string>,
 ): TimeObjectType | null => {

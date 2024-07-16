@@ -354,6 +354,11 @@ export default function CEPMap() {
         stroke="#000"
         strokeWidth="2"
       />
+      <path
+        d="M371.875 232.127h4.109l1.61-4.188h5.702l1.688 4.188h4.281l-7.281-17.656h-3.188zm6.859-7.438.875-2.406c.453-1.203.703-1.937.828-2.531h.063c.125.562.343 1.312.75 2.5l.812 2.437zm0 0"
+        aria-label="A"
+        fill="#fff"
+      />
       <BuildingDisplay
         campus="CEP"
         building="A"
@@ -380,6 +385,11 @@ export default function CEPMap() {
         fill="#74c32c"
         stroke="#000000"
         strokeWidth="2"
+      />
+      <path
+        d="M103.439 118.296h4.078V104h4.562l.985-3.28H98.282V104h5.157zm0 0"
+        aria-label="T"
+        fill="#fff"
       />
       <BuildingDisplay
         campus="CEP"
@@ -1211,16 +1221,7 @@ export default function CEPMap() {
         aria-label="UFV Campus Connector Shuttle bus stop Public bus stop Food services Campus Security 1-855-239-7654 &amp; Campus First Aid 1-855-282-7770 Parking paystation"
         fill="#231f20"
       />
-      <path
-        d="M371.875 232.127h4.109l1.61-4.188h5.702l1.688 4.188h4.281l-7.281-17.656h-3.188zm6.859-7.438.875-2.406c.453-1.203.703-1.937.828-2.531h.063c.125.562.343 1.312.75 2.5l.812 2.437zm0 0"
-        aria-label="A"
-        fill="#fff"
-      />
-      <path
-        d="M103.439 118.296h4.078V104h4.562l.985-3.28H98.282V104h5.157zm0 0"
-        aria-label="T"
-        fill="#fff"
-      />
+
       <path
         d="M596.108 277.749h2.787l2.056-5.704a19.79 19.79 0 0 0 .59-1.914h.078c.128.59.385 1.297.629 1.952l2.081 5.666h2.903l4.908-14.568h-3.405l-2.325 7.85c-.218.744-.347 1.36-.5 2.067h-.065c-.18-.706-.411-1.361-.68-2.106l-2.699-7.81h-3.314l.95 2.594-1.823 5.472a26.123 26.123 0 0 0-.553 1.863h-.064a29.887 29.887 0 0 0-.501-1.863l-2.57-8.067h-3.75zm0 0"
         aria-label="W"

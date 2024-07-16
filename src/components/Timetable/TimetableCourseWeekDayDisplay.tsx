@@ -146,7 +146,7 @@ export function TimetableEventWeekAndDayElement(props: {
             disabled={!isWeekView}
             className={cn(
               TimetableViewWeekCSS.course,
-              "border-2 bg-slate-100 dark:bg-slate-800 print:bg-white print:text-black print:dark:bg-white",
+              "border-2 bg-slate-100 dark:bg-slate-800 print:bg-white print:text-black print:dark:bg-white z-[100]",
               {
                 isDayView: !isWeekView,
                 "cursor-pointer": isWeekView,
@@ -187,7 +187,7 @@ export function TimetableEventWeekAndDayElement(props: {
           </button>
         </PopoverTrigger>
         <PopoverContent
-          className="w-max border border-slate-400 bg-slate-200 drop-shadow-md dark:border-slate-600 dark:bg-slate-800"
+          className="w-max border border-slate-400 bg-slate-200 drop-shadow-md dark:border-slate-600 dark:bg-slate-800 z-[200]"
           side="right"
         >
           <PopoverArrow className="fill-slate-400 dark:fill-slate-600" />
